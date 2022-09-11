@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/acpMenu.xsd">
+	<import>
+		<acpmenuitem name="wcf.acp.menu.link.quiz">
+			<parent>wcf.acp.menu.link.application</parent>
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.quiz.category.list">
+			<controller>wcf\acp\page\QuizCategoryListPage</controller>
+			<parent>wcf.acp.menu.link.quiz</parent>
+			<permissions>admin.community.canManageQuiz</permissions>
+			<showOrder>1</showOrder>
+			<options>quiz_category_on</options>
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.menu.link.quiz.category.add">
+			<controller>wcf\acp\form\QuizCategoryAddForm</controller>
+			<parent>wcf.acp.menu.link.quiz.category.list</parent>
+			<permissions>admin.community.canManageQuiz</permissions>
+			<icon>fa-plus</icon>
+			<showOrder>2</showOrder>
+			<options>quiz_category_on</options>
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.quiz.question.list">
+			<controller>wcf\acp\page\QuestionListPage</controller>
+			<parent>wcf.acp.menu.link.quiz</parent>
+			<permissions>admin.community.canManageQuiz</permissions>
+			<showOrder>3</showOrder>
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.menu.link.quiz.question.add">
+			<controller>wcf\acp\form\QuestionAddForm</controller>
+			<parent>wcf.acp.menu.link.quiz.question.list</parent>
+			<permissions>admin.community.canManageQuiz</permissions>
+			<icon>fa-plus</icon>
+			<showOrder>4</showOrder>
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.quiz.list">
+			<controller>wcf\acp\page\QuizListPage</controller>
+			<parent>wcf.acp.menu.link.quiz</parent>
+			<permissions>admin.community.canManageQuiz</permissions>
+			<showOrder>5</showOrder>
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.menu.link.quiz.add">
+			<controller>wcf\acp\form\QuizAddForm</controller>
+			<parent>wcf.acp.menu.link.quiz.list</parent>
+			<permissions>admin.community.canManageQuiz</permissions>
+			<icon>fa-plus</icon>
+			<showOrder>6</showOrder>
+		</acpmenuitem>
+	</import>
+</data>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/objectType.xsd">
+	<import>
+		<!-- Activity Points -->
+		<type>
+			<name>com.uz.wcf.quiz.activityPointEvent.quiz</name>
+			<definitionname>com.woltlab.wcf.user.activityPointEvent</definitionname>
+			<points>15</points>
+		</type>
+		
+		<!-- box controllers -->
+		<type>
+			<name>com.uz.wcf.quiz.QuizBestRated</name>
+			<definitionname>com.woltlab.wcf.boxController</definitionname>
+			<classname>wcf\system\box\QuizBestRatedBoxController</classname>
+		</type>
+		<type>
+			<name>com.uz.wcf.quiz.QuizFavorite</name>
+			<definitionname>com.woltlab.wcf.boxController</definitionname>
+			<classname>wcf\system\box\QuizFavoriteBoxController</classname>
+		</type>
+		<type>
+			<name>com.uz.wcf.quiz.QuizNewest</name>
+			<definitionname>com.woltlab.wcf.boxController</definitionname>
+			<classname>wcf\system\box\QuizNewestBoxController</classname>
+		</type>
+		
+		<type>
+			<name>com.uz.wcf.quiz.TopSolver</name>
+			<definitionname>com.woltlab.wcf.boxController</definitionname>
+			<classname>wcf\system\box\QuizTopSolverBoxController</classname>
+		</type>
+		<type>
+			<name>com.uz.wcf.quiz.BestSolver</name>
+			<definitionname>com.woltlab.wcf.boxController</definitionname>
+			<classname>wcf\system\box\QuizBestSolverBoxController</classname>
+		</type>
+		
+		<!-- category -->
+		<type>
+			<name>com.uz.wcf.quiz.category</name>
+			<definitionname>com.woltlab.wcf.category</definitionname>
+			<classname>wcf\system\category\QuizCategoryType</classname>
+		</type>
+		
+		<!-- ad conditions -->
+		<type>
+			<name>com.uz.wcf.quiz.count</name>
+			<definitionname>com.woltlab.wcf.condition.ad</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>uzQuiz</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<type>
+			<name>com.uz.wcf.quiz.rate</name>
+			<definitionname>com.woltlab.wcf.condition.ad</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>uzQuizRate</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- notice conditions -->
+		<type>
+			<name>com.uz.wcf.quiz.count</name>
+			<definitionname>com.woltlab.wcf.condition.notice</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>uzQuiz</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<type>
+			<name>com.uz.wcf.quiz.rate</name>
+			<definitionname>com.woltlab.wcf.condition.notice</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>uzQuizRate</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- user bulk processing conditions -->
+		<type>
+			<name>com.uz.wcf.quiz.count</name>
+			<definitionname>com.woltlab.wcf.bulkProcessing.user.condition</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>uzQuiz</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<type>
+			<name>com.uz.wcf.quiz.rate</name>
+			<definitionname>com.woltlab.wcf.bulkProcessing.user.condition</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>uzQuizRate</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- user group assignment conditions -->
+		<type>
+			<name>com.uz.wcf.quiz.count</name>
+			<definitionname>com.woltlab.wcf.condition.userGroupAssignment</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>uzQuiz</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<type>
+			<name>com.uz.wcf.quiz.rate</name>
+			<definitionname>com.woltlab.wcf.condition.userGroupAssignment</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>uzQuizRate</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- user search conditions -->
+		<type>
+			<name>com.uz.wcf.quiz.count</name>
+			<definitionname>com.woltlab.wcf.condition.userSearch</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>uzQuiz</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<type>
+			<name>com.uz.wcf.quiz.rate</name>
+			<definitionname>com.woltlab.wcf.condition.userSearch</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>uzQuizRate</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- trophy condition -->
+		<type>
+			<name>com.uz.wcf.quiz.count</name>
+			<definitionname>com.woltlab.wcf.condition.trophy</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>uzQuiz</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<type>
+			<name>com.uz.wcf.quiz.rate</name>
+			<definitionname>com.woltlab.wcf.condition.trophy</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>uzQuizRate</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- notification -->
+		<type>
+			<name>com.uz.wcf.quiz.user.notification</name>
+			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+			<classname>wcf\system\user\notification\object\type\QuizUserNotificationObjectType</classname>
+			<category>com.uz.wcf.quiz</category>
+		</type>
+		
+		<!-- Recent Activity -->
+		<type>
+			<name>com.uz.wcf.quiz.recentActivityEvent.quiz</name>
+			<definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
+			<classname>wcf\system\user\activity\event\QuizUserActivityEvent</classname>
+		</type>
+		<type>
+			<name>com.uz.wcf.quiz.recentActivityEvent.quizRating</name>
+			<definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
+			<classname>wcf\system\user\activity\event\QuizRatingUserActivityEvent</classname>
+		</type>
+		
+		<!-- stat handlers -->
+		<type>
+			<name>com.uz.wcf.quiz</name>
+			<definitionname>com.woltlab.wcf.statDailyHandler</definitionname>
+			<classname>wcf\system\stat\QuizStatDailyHandler</classname>
+			<categoryname>com.woltlab.wcf.general</categoryname>
+		</type>
+		
+		<!-- Visit Tracker -->
+		<type>
+			<name>com.uz.wcf.quiz</name>
+			<definitionname>com.woltlab.wcf.visitTracker.objectType</definitionname>
+		</type>
+		
+		<!-- Quiz participation conditions -->
+		<type>
+			<name>com.uz.wcf.quiz.condition.userGroup</name>
+			<definitionname>com.uz.wcf.quiz.condition</definitionname>
+			<classname>wcf\system\condition\UserGroupCondition</classname>
+			<conditiongroup>general</conditiongroup>
+		</type>
+		<type>
+			<name>com.uz.wcf.quiz.condition.languages</name>
+			<definitionname>com.uz.wcf.quiz.condition</definitionname>
+			<classname>wcf\system\condition\UserLanguageCondition</classname>
+			<conditiongroup>general</conditiongroup>
+		</type>
+		<type>
+			<name>com.uz.wcf.quiz.condition.registrationDateInterval</name>
+			<definitionname>com.uz.wcf.quiz.condition</definitionname>
+			<classname>wcf\system\condition\UserRegistrationDateIntervalCondition</classname>
+			<conditiongroup>general</conditiongroup>
+		</type>
+	</import>
+</data>

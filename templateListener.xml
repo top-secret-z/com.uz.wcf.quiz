@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/templateListener.xsd">
+	<import>
+		<templatelistener name="quizUserInformationStatistics">
+			<environment>user</environment>
+			<templatename>userInformationStatistics</templatename>
+			<eventname>statistics</eventname>
+			<templatecode><![CDATA[{include file='__quizUserInformationStatistics'}]]></templatecode>
+		</templatelistener>
+		
+		<templatelistener name="quizMessageSidebarUserCredits">
+			<environment>user</environment>
+			<templatename>messageSidebar</templatename>
+			<eventname>userCredits</eventname>
+			<templatecode><![CDATA[{include file='__quizMessageSidebarUserCredits'}]]></templatecode>
+		</templatelistener>
+	</import>
+	
+	<delete>
+		<templatelistener name="quizCopyright">
+			<environment>user</environment>
+			<templatename>pageFooterCopyright</templatename>
+			<eventname>copyright</eventname>
+		</templatelistener>
+	</delete>
+</data>

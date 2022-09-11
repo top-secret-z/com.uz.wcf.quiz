@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/box.xsd">
+	<import>
+		<box identifier="com.uz.wcf.quiz.QuizBestRated">
+			<name language="de">Bestbewertete Quiz</name>
+			<name language="en">Best Rated Quizzes</name>
+			<boxType>system</boxType>
+			<objectType>com.uz.wcf.quiz.QuizBestRated</objectType>
+			<position>sidebarRight</position>
+			<showHeader>1</showHeader>
+			<visibleEverywhere>0</visibleEverywhere>
+			<limit>5</limit>
+			
+			<content language="de">
+				<title>Bestbewertete Quiz</title>
+			</content>
+			<content language="en">
+				<title>Best Rated Quizzes</title>
+			</content>
+		</box>
+		<box identifier="com.uz.wcf.quiz.QuizFavorite">
+			<name language="de">Beliebteste Quiz</name>
+			<name language="en">Favorite Quizzes</name>
+			<boxType>system</boxType>
+			<objectType>com.uz.wcf.quiz.QuizFavorite</objectType>
+			<position>sidebarRight</position>
+			<showHeader>1</showHeader>
+			<visibleEverywhere>0</visibleEverywhere>
+			<limit>5</limit>
+			
+			<content language="de">
+				<title>Beliebteste Quiz</title>
+			</content>
+			<content language="en">
+				<title>Favorite Quizzes</title>
+			</content>
+		</box>
+		<box identifier="com.uz.wcf.quiz.QuizNewest">
+			<name language="de">Neueste Quiz</name>
+			<name language="en">Newest Quizzes</name>
+			<boxType>system</boxType>
+			<objectType>com.uz.wcf.quiz.QuizNewest</objectType>
+			<position>sidebarRight</position>
+			<showHeader>1</showHeader>
+			<visibleEverywhere>0</visibleEverywhere>
+			<limit>5</limit>
+			
+			<content language="de">
+				<title>Neueste Quiz</title>
+			</content>
+			<content language="en">
+				<title>Newest Quizzes</title>
+			</content>
+		</box>
+		
+		<box identifier="com.uz.wcf.quiz.TopSolver">
+			<name language="de">Mitglieder mit den meisten Quizlösungen</name>
+			<name language="en">Members with the most quiz solves</name>
+			<boxType>system</boxType>
+			<objectType>com.uz.wcf.quiz.TopSolver</objectType>
+			<position>sidebarRight</position>
+			<showHeader>1</showHeader>
+			<visibleEverywhere>0</visibleEverywhere>
+			<limit>5</limit>
+			
+			<content language="de">
+				<title>Mitglieder mit den meisten Quizlösungen</title>
+			</content>
+			<content language="en">
+				<title>Members with the most quiz solves</title>
+			</content>
+		</box>
+		
+		<box identifier="com.uz.wcf.quiz.BestSolver">
+			<name language="de">Mitglieder mit den besten Quizergebnissen</name>
+			<name language="en">Members with the best quiz results</name>
+			<boxType>system</boxType>
+			<objectType>com.uz.wcf.quiz.BestSolver</objectType>
+			<position>sidebarRight</position>
+			<showHeader>1</showHeader>
+			<visibleEverywhere>0</visibleEverywhere>
+			<limit>5</limit>
+			
+			<content language="de">
+				<title>Mitglieder mit den besten Quizergebnissen</title>
+			</content>
+			<content language="en">
+				<title>Members with the best quiz results</title>
+			</content>
+		</box>
+		
+	</import>
+</data>
