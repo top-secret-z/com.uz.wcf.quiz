@@ -1,370 +1,370 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en">
-	<category name="wcf.acp.box">
-		<item name="wcf.acp.box.boxController.com.uz.wcf.quiz.BestSolver"><![CDATA[Members with the best quiz results]]></item>
-		<item name="wcf.acp.box.boxController.com.uz.wcf.quiz.QuizBestRated"><![CDATA[Best Rated Quizzes]]></item>
-		<item name="wcf.acp.box.boxController.com.uz.wcf.quiz.QuizFavorite"><![CDATA[Favorite Quizzes]]></item>
-		<item name="wcf.acp.box.boxController.com.uz.wcf.quiz.QuizNewest"><![CDATA[Newest Quizzes]]></item>
-		<item name="wcf.acp.box.boxController.com.uz.wcf.quiz.TopSolver"><![CDATA[Members with the most quiz solves]]></item>
-	</category>
-	
-	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.category.admin.quiz"><![CDATA[Quiz]]></item>
-		<item name="wcf.acp.group.option.category.user.quiz"><![CDATA[Quiz]]></item>
-		<item name="wcf.acp.group.option.admin.community.canManageQuiz"><![CDATA[Can manage quizzes]]></item>
-		<item name="wcf.acp.group.option.user.quiz.canPlay"><![CDATA[Can solve quizzes]]></item>
-		<item name="wcf.acp.group.option.user.quiz.canRate"><![CDATA[Can rate quizzes]]></item>
-		<item name="wcf.acp.group.option.user.quiz.canSee"><![CDATA[Can see quizzes]]></item>
-		<item name="wcf.acp.group.option.user.quiz.canSeeOtherGroup"><![CDATA[Can see quizzes for other user group(s)]]></item>
-		<item name="wcf.acp.group.option.user.quiz.canSeeRating"><![CDATA[Can see quiz ratings]]></item>
-		<item name="wcf.acp.group.option.user.quiz.canSeeRatingDetails"><![CDATA[Can see quiz rating details]]></item>
-		<item name="wcf.acp.group.option.user.quiz.canSubmitQuestions"><![CDATA[Can submit questions]]></item>
-		<item name="wcf.acp.group.option.user.quiz.canSubmitImage"><![CDATA[Can upload images for questions]]></item>
-	</category>
-	
-	<category name="wcf.acp.menu">
-		<item name="wcf.acp.menu.link.quiz"><![CDATA[Quiz]]></item>
-		<item name="wcf.acp.menu.link.quiz.add"><![CDATA[Add Quiz]]></item>
-		<item name="wcf.acp.menu.link.quiz.list"><![CDATA[Quizzes ]]></item>
-		<item name="wcf.acp.menu.link.quiz.category.add"><![CDATA[Add Category]]></item>
-		<item name="wcf.acp.menu.link.quiz.category.list"><![CDATA[Categories]]></item>
-		<item name="wcf.acp.menu.link.quiz.question.add"><![CDATA[Add Question]]></item>
-		<item name="wcf.acp.menu.link.quiz.question.list"><![CDATA[Questions]]></item>
-	</category>
-	
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.category.quiz"><![CDATA[Quiz]]></item>
-		<item name="wcf.acp.option.category.quiz.general"><![CDATA[General]]></item>
-		<item name="wcf.acp.option.category.quiz.general.best"><![CDATA[Best list]]></item>
-		<item name="wcf.acp.option.category.quiz.general.category"><![CDATA[Categories]]></item>
-		<item name="wcf.acp.option.category.quiz.general.filter"><![CDATA[Filter on Quiz page]]></item>
-		<item name="wcf.acp.option.category.quiz.general.group"><![CDATA[User Group Assignment]]></item>
-		<item name="wcf.acp.option.category.quiz.general.user"><![CDATA[Display with user]]></item>
-		<item name="wcf.acp.option.category.quiz.rating"><![CDATA[Rating]]></item>
-		<item name="wcf.acp.option.category.quiz.sort"><![CDATA[Sort Order]]></item>
-		<item name="wcf.acp.option.module_uzquiz"><![CDATA[Quiz]]></item>
-		<item name="wcf.acp.option.module_uzquiz_report"><![CDATA[Quiz - report new user question]]></item>
-		<item name="wcf.acp.option.module_uzquiz_activity"><![CDATA[Quiz - show activity]]></item>
-		<item name="wcf.acp.option.quiz_best_once"><![CDATA[Only best result]]></item>
-		<item name="wcf.acp.option.quiz_best_once.description"><![CDATA[Users will be listed in the best list of a quiz only once with their best result.]]></item>
-		<item name="wcf.acp.option.quiz_best_overall"><![CDATA[Top Quizzer]]></item>
-		<item name="wcf.acp.option.quiz_best_overall.description"><![CDATA[Users will be listed in the best list of all quizzers only, if they have solved the inserted number of quizzes.]]></item>
-		<item name="wcf.acp.option.quiz_category_on"><![CDATA[Use categories]]></item>
-		<item name="wcf.acp.option.quiz_category_on.description"><![CDATA[Activates categorizing of quiz questions.]]></item>
-		<item name="wcf.acp.option.quiz_default_sort_field"><![CDATA[Sort Field]]></item>
-		<item name="wcf.acp.option.quiz_default_sort_field.description"><![CDATA[Sequence of quizzes on Quiz page.]]></item>
-		<item name="wcf.acp.option.quiz_default_sort_order"><![CDATA[Sort Order]]></item>
-		<item name="wcf.acp.option.quiz_filter"><![CDATA[Show]]></item>
-		<item name="wcf.acp.option.quiz_filter_success"><![CDATA[Show unsuccessfully solved quizzes as unsolved]]></item>
-		<item name="wcf.acp.option.quiz_group_on"><![CDATA[Activate Assignments]]></item>
-		<item name="wcf.acp.option.quiz_rating_activate"><![CDATA[Activate]]></item>
-		<item name="wcf.acp.option.quiz_rating_one"><![CDATA[Worst Rating]]></item>
-		<item name="wcf.acp.option.quiz_rating_two"><![CDATA[Rating 2]]></item>
-		<item name="wcf.acp.option.quiz_rating_three"><![CDATA[Rating 3]]></item>
-		<item name="wcf.acp.option.quiz_rating_four"><![CDATA[Rating 4]]></item>
-		<item name="wcf.acp.option.quiz_rating_five"><![CDATA[Best Rating]]></item>
-		<item name="wcf.acp.option.quiz.rating_one"><![CDATA[very bad]]></item>
-		<item name="wcf.acp.option.quiz.rating_two"><![CDATA[bad]]></item>
-		<item name="wcf.acp.option.quiz.rating_three"><![CDATA[not too bad]]></item>
-		<item name="wcf.acp.option.quiz.rating_four"><![CDATA[good]]></item>
-		<item name="wcf.acp.option.quiz.rating_five"><![CDATA[very good]]></item>
-		<item name="wcf.acp.option.quiz_user_quizzes"><![CDATA[Solved Quizzes]]></item>
-		<item name="wcf.acp.option.quiz_user_quizRates"><![CDATA[Quiz Rate]]></item>
-	</category>
-	
-	<category name="wcf.acp.quiz">
-		<item name="wcf.acp.quiz.filter"><![CDATA[Filter]]></item>
-		<item name="wcf.acp.quiz.filter.description"><![CDATA[Enter a character string to filter by username, category name and question texts in all languages.]]></item>
-		<item name="wcf.acp.quiz.filter.placeholder"><![CDATA[No filter]]></item>
-		<item name="wcf.acp.quiz.no"><![CDATA[no]]></item>
-		<item name="wcf.acp.quiz.noQuiz"><![CDATA[No quiz found.]]></item>
-		<item name="wcf.acp.quiz.preview"><![CDATA[Preview]]></item>
-		<item name="wcf.acp.quiz.question.add"><![CDATA[Add Question]]></item>
-		<item name="wcf.acp.quiz.question.answers"><![CDATA[Answers]]></item>
-		<item name="wcf.acp.quiz.question.answers.error.missing"><![CDATA[Either add this answer or delete the following answers.]]></item>
-		<item name="wcf.acp.quiz.question.answerOne"><![CDATA[1st Answer]]></item>
-		<item name="wcf.acp.quiz.question.answerTwo"><![CDATA[2nd Answer]]></item>
-		<item name="wcf.acp.quiz.question.answerThree"><![CDATA[3rd Answer]]></item>
-		<item name="wcf.acp.quiz.question.answerFour"><![CDATA[4th Answer]]></item>
-		<item name="wcf.acp.quiz.question.answerFive"><![CDATA[5th Answer]]></item>
-		<item name="wcf.acp.quiz.question.answerSix"><![CDATA[6th Answer]]></item>
-		<item name="wcf.acp.quiz.question.categoryID"><![CDATA[Category]]></item>
-		<item name="wcf.acp.quiz.question.categoryID.all"><![CDATA[All categories]]></item>
-		<item name="wcf.acp.quiz.question.categoryID.default"><![CDATA[Default category]]></item>
-		<item name="wcf.acp.quiz.question.categoryID.error.notFound"><![CDATA[No questions were found.]]></item>
-		<item name="wcf.acp.quiz.question.categoryID.error.notSelected"><![CDATA[Please select at least one category.]]></item>
-		<item name="wcf.acp.quiz.question.comment"><![CDATA[Comment]]></item>
-		<item name="wcf.acp.quiz.question.comment.description"><![CDATA[The comment is shown after a question is answered.]]></item>
-		<item name="wcf.acp.quiz.question.correct"><![CDATA[Correct Answer]]></item>
-		<item name="wcf.acp.quiz.question.correct.error.incorrect"><![CDATA[The answer defined as correct doesn't exist.]]></item>
-		<item name="wcf.acp.quiz.question.count"><![CDATA[Answers]]></item>
-		<item name="wcf.acp.quiz.question.delete.sure"><![CDATA[Do you really want to delete the answer?]]></item>
-		<item name="wcf.acp.quiz.question.deleteImage"><![CDATA[Remove image after storing question]]></item>
-		<item name="wcf.acp.quiz.question.edit"><![CDATA[Edit Question]]></item>
-		<item name="wcf.acp.quiz.question.empty"><![CDATA[(empty)]]></item>
-		<item name="wcf.acp.quiz.question.general"><![CDATA[Question]]></item>
-		<item name="wcf.acp.quiz.question.image"><![CDATA[Image]]></item>
-		<item name="wcf.acp.quiz.question.image.description"><![CDATA[Upload an image for this question, acceptable image types are JP(E)G and PNG. Dimensions should be 800px × 600px, exceeding images will be scaled.]]></item>
-		<item name="wcf.acp.quiz.question.image.error.invalidExtension"><![CDATA[The file extension is invalid. Please use only JP(E)G or PNG.]]></item>
-		<item name="wcf.acp.quiz.question.list"><![CDATA[Questions]]></item>
-		<item name="wcf.acp.quiz.question.preview"><![CDATA[Preview]]></item>
-		<item name="wcf.acp.quiz.question.question"><![CDATA[Question]]></item>
-		<item name="wcf.acp.quiz.question.time"><![CDATA[Created]]></item>
-		<item name="wcf.acp.quiz.question.unknown"><![CDATA[Unkonwn question]]></item>
-		<item name="wcf.acp.quiz.question.used"><![CDATA[This question is used by at least one quiz and can't be deleted. Click the icon to open a list with quizzes using this question.]]></item>
-		<item name="wcf.acp.quiz.question.usedBy"><![CDATA[The question is used by the following quizzes:]]></item>
-		<item name="wcf.acp.quiz.question.user"><![CDATA[The question was submitted by a user and can't be edited here.]]></item>
-		<item name="wcf.acp.quiz.question.user.warning"><![CDATA[You are editing a question, which was submitted by a user.]]></item>
-		<item name="wcf.acp.quiz.question.username"><![CDATA[Author]]></item>
-		<item name="wcf.acp.quiz.quizList"><![CDATA[Quiz List]]></item>
-		<item name="wcf.acp.quiz.quiz.add"><![CDATA[Add Quiz]]></item>
-		<item name="wcf.acp.quiz.quiz.answers"><![CDATA[Display after Answers / Quiz]]></item>
-		<item name="wcf.acp.quiz.quiz.assignGroupIDs"><![CDATA[User Group(s)]]></item>
-		<item name="wcf.acp.quiz.quiz.assignResult"><![CDATA[Result]]></item>
-		<item name="wcf.acp.quiz.quiz.assignResult.description"><![CDATA[Required result for user group assignment [in percent].]]></item>
-		<item name="wcf.acp.quiz.quiz.autoInsert"><![CDATA[Automatically add Questions]]></item>
-		<item name="wcf.acp.quiz.quiz.conditions"><![CDATA[Conditions]]></item>
-		<item name="wcf.acp.quiz.quiz.conditions.description"><![CDATA[User must fulfill the following conditions to solve the quiz]]></item>
-		<item name="wcf.acp.quiz.quiz.counter"><![CDATA[Solved]]></item>
-		<item name="wcf.acp.quiz.quiz.delete.sure"><![CDATA[Do you really want to delete this quiz?]]></item>
-		<item name="wcf.acp.quiz.quiz.deleteImage"><![CDATA[Remove image after storing quiz]]></item>
-		<item name="wcf.acp.quiz.quiz.edit"><![CDATA[Edit Quiz]]></item>
-		<item name="wcf.acp.quiz.quiz.error.invalidGroup"><![CDATA[An invalid user group was choosen.]]></item>
-		<item name="wcf.acp.quiz.quiz.error.noQuestions"><![CDATA[Please <a href="{link controller='QuestionList'}{/link}">add resp. activate questions</a> before creating quizzes.]]></item>
-		<item name="wcf.acp.quiz.quiz.expire"><![CDATA[Expiration]]></item>
-		<item name="wcf.acp.quiz.quiz.general"><![CDATA[General]]></item>
-		<item name="wcf.acp.quiz.quiz.groups"><![CDATA[User Groups]]></item>
-		<item name="wcf.acp.quiz.quiz.groups.description"><![CDATA[Optionally, you may assign users, who solved the quiz, to one or more user groups.]]></item>
-		<item name="wcf.acp.quiz.quiz.hasPeriod"><![CDATA[Limit validity period]]></item>
-		<item name="wcf.acp.quiz.quiz.image"><![CDATA[Image]]></item>
-		<item name="wcf.acp.quiz.quiz.image.description"><![CDATA[Upload an image for this quiz, which is shown on the quoz overview page. Acceptable image types are JP(E)G and PNG. Dimensions should be 102px × 64px, exceeding images will be scaled.]]></item>
-		<item name="wcf.acp.quiz.quiz.image.error.invalidExtension"><![CDATA[The file extension is invalid. Please use only JP(E)G or PNG.]]></item>
-		<item name="wcf.acp.quiz.quiz.insert"><![CDATA[Insert]]></item>
-		<item name="wcf.acp.quiz.quiz.isActive"><![CDATA[Activate]]></item>
-		<item name="wcf.acp.quiz.quiz.limits"><![CDATA[Limitations]]></item>
-		<item name="wcf.acp.quiz.quiz.list"><![CDATA[Quiz]]></item>
-		<item name="wcf.acp.quiz.quiz.paused"><![CDATA[Time Lock]]></item>
-		<item name="wcf.acp.quiz.quiz.paused.description"><![CDATA[Specify the time a user must wait before being allowed to play the quiz again. 0 cancels the block.]]></item>
-		<item name="wcf.acp.quiz.quiz.period.end"><![CDATA[End]]></item>
-		<item name="wcf.acp.quiz.quiz.period.end.error.beforeStart"><![CDATA[The end of the validity period must be after its start.]]></item>
-		<item name="wcf.acp.quiz.quiz.period.end.error.inPast"><![CDATA[The end of the validity period is in the past.]]></item>
-		<item name="wcf.acp.quiz.quiz.period.end.error.invalid"><![CDATA[Invalid date]]></item>
-		<item name="wcf.acp.quiz.quiz.period.start"><![CDATA[Start]]></item>
-		<item name="wcf.acp.quiz.quiz.period.start.error.invalid"><![CDATA[Invalid date]]></item>
-		<item name="wcf.acp.quiz.quiz.playAgain"><![CDATA[Allow users to solve the quiz multiple times]]></item>
-		<item name="wcf.acp.quiz.quiz.points"><![CDATA[Point]]></item>
-		<item name="wcf.acp.quiz.quiz.points.description"><![CDATA[Points for a correct answer. The points are shown at the end of a quiz.]]></item>
-		<item name="wcf.acp.quiz.quiz.questionIDs"><![CDATA[Questions]]></item>
-		<item name="wcf.acp.quiz.quiz.questionIDs.description"><![CDATA[ID of the questions, which are to be assigned to this quiz. One ID per line.]]></item>
-		<item name="wcf.acp.quiz.quiz.questionIDs.error.missing"><![CDATA[You inserted non-existing questions: {$missingIDs}.]]></item>
-		<item name="wcf.acp.quiz.quiz.questionIDs.error.noQuestions"><![CDATA[You have to insert at least one question.]]></item>
-		<item name="wcf.acp.quiz.quiz.questions"><![CDATA[Questions]]></item>
-		<item name="wcf.acp.quiz.quiz.questionsSelected"><![CDATA[Selected Questions]]></item>
-		<item name="wcf.acp.quiz.quiz.randomize"><![CDATA[Randomize questions]]></item>
-		<item name="wcf.acp.quiz.quiz.randomize.description"><![CDATA[The sequence of questions is changed in a random order each time this quiz is played.]]></item>
-		<item name="wcf.acp.quiz.quiz.result"><![CDATA[Answers]]></item>
-		<item name="wcf.acp.quiz.quiz.showBest"><![CDATA[Show best list]]></item>
-		<item name="wcf.acp.quiz.quiz.showBest.description"><![CDATA[The button for opening the best list is displayed.]]></item>
-		<item name="wcf.acp.quiz.quiz.showStats"><![CDATA[Show statistics]]></item>
-		<item name="wcf.acp.quiz.quiz.showStats.description"><![CDATA[The button for opening the statistics is displayed.]]></item>
-		<item name="wcf.acp.quiz.quiz.showComment"><![CDATA[Show comment after answer]]></item>
-		<item name="wcf.acp.quiz.quiz.showComment.description"><![CDATA[After each question the comment for the question is displayed.]]></item>
-		<item name="wcf.acp.quiz.quiz.showCorrect"><![CDATA[Show accuracy of answer]]></item>
-		<item name="wcf.acp.quiz.quiz.showCorrect.description"><![CDATA[It is displayed after each question whether the answer is right or wrong. The result dialog shows how many and if applicable which questions were answered right and wrong.]]></item>
-		<item name="wcf.acp.quiz.quiz.showOrder"><![CDATA[Position]]></item>
-		<item name="wcf.acp.quiz.quiz.showOrder.description"><![CDATA[Position of this quiz on the quiz page.]]></item>
-		<item name="wcf.acp.quiz.quiz.showResult"><![CDATA[Show correct solution after answer]]></item>
-		<item name="wcf.acp.quiz.quiz.showResult.description"><![CDATA[The correct answer is displayed after each question. The correct answers are also displayed in the result dialog.]]></item>
-		<item name="wcf.acp.quiz.quiz.showResultButton"><![CDATA[Show result]]></item>
-		<item name="wcf.acp.quiz.quiz.showResultButton.description"><![CDATA[The button for opening the result dialog at the end of the quiz is displayed. The dialog content depends on the configuration of “Show accuracy of answer” and “Show correct solution after answer”.]]></item>
-		<item name="wcf.acp.quiz.quiz.text"><![CDATA[Text]]></item>
-		<item name="wcf.acp.quiz.quiz.time"><![CDATA[Created]]></item>
-		<item name="wcf.acp.quiz.quiz.timeLimit"><![CDATA[Time Limit]]></item>
-		<item name="wcf.acp.quiz.quiz.timeLimit.description"><![CDATA[Insert the time being available for solving the quiz. The maximum value is 86399, which equals almost 24 hours. 0 sets the time to unlimited.]]></item>
-		<item name="wcf.acp.quiz.quiz.title"><![CDATA[Title]]></item>
-		<item name="wcf.acp.quiz.quiz.title.error.tooLong"><![CDATA[The title is too long. At maximum, 255 characters can be used.]]></item>
-		<item name="wcf.acp.quiz.quiz.userGroupIDs"><![CDATA[User Group(s)]]></item>
-		<item name="wcf.acp.quiz.sort_creation"><![CDATA[Creation]]></item>
-		<item name="wcf.acp.quiz.sort_counter"><![CDATA[Views]]></item>
-		<item name="wcf.acp.quiz.sort_questions"><![CDATA[Questions]]></item>
-		<item name="wcf.acp.quiz.sort_showOrder"><![CDATA[Default (Position)]]></item>
-		<item name="wcf.acp.quiz.sort_timeLimit"><![CDATA[Time Limit]]></item>
-		<item name="wcf.acp.quiz.stats"><![CDATA[Statistics]]></item>
-		<item name="wcf.acp.quiz.stats.average"><![CDATA[{@$value|quizRound}% average]]></item>
-		<item name="wcf.acp.quiz.stats.averageRate"><![CDATA[<dl><dt>Average</dt><dd>{@$value|quizRound} %</dd></dl>]]></item>
-		<item name="wcf.acp.quiz.stats.counter"><![CDATA[<dl><dt>Solutions</dt><dd>{#$value}</dd></dl>]]></item>
-		<item name="wcf.acp.quiz.stats.maxRate"><![CDATA[<dl><dt>Maximum</dt><dd>{@$value|quizRound} %</dd></dl>]]></item>
-		<item name="wcf.acp.quiz.stats.minRate"><![CDATA[<dl><dt>Minimum</dt><dd>{@$value|quizRound} %</dd></dl>]]></item>
-		<item name="wcf.acp.quiz.stats.none"><![CDATA[The quiz has not yet been solved.]]></item>
-		<item name="wcf.acp.quiz.stats.questions"><![CDATA[{#$value} question{if $value!=1}s{/if}]]></item>
-		<item name="wcf.acp.quiz.stats.result"><![CDATA[Result in %]]></item>
-		<item name="wcf.acp.quiz.stats.time"><![CDATA[Time]]></item>
-		<item name="wcf.acp.quiz.stats.topUserTitle"><![CDATA[User Ranking]]></item>
-		<item name="wcf.acp.quiz.stats.userCount"><![CDATA[<dl><dt>User</dt><dd>{#$value}</dd></dl>]]></item>
-		<item name="wcf.acp.quiz.stats.username"><![CDATA[User]]></item>
-		<item name="wcf.acp.quiz.stats.users"><![CDATA[{#$value} user{if $value!=1}s{/if}]]></item>
-		<item name="wcf.acp.quiz.yes"><![CDATA[yes]]></item>
-	</category>
-	
-	<category name="wcf.acp.stat">
-		<item name="wcf.acp.stat.com.uz.wcf.quiz"><![CDATA[Quiz Views]]></item>
-	</category>
-	
-	<!-- dashboard -->
-	<category name="wcf.dashboard">
-		<item name="wcf.dashboard.box.com.uz.wcf.quiz.bestRated"><![CDATA[Best Rated Quizzes]]></item>
-		<item name="wcf.dashboard.box.com.uz.wcf.quiz.bestSolver"><![CDATA[Members with the best Quiz Results]]></item>
-		<item name="wcf.dashboard.box.com.uz.wcf.quiz.favorite"><![CDATA[Favorite Quizzes]]></item>
-		<item name="wcf.dashboard.box.com.uz.wcf.quiz.mostActive"><![CDATA[Members with the most Quizzes solved]]></item>
-		<item name="wcf.dashboard.box.com.uz.wcf.quiz.newest"><![CDATA[Newest Quizzes]]></item>
-		<item name="wcf.dashboard.objectType.com.uz.wcf.quiz.QuizPage"><![CDATA[Quiz]]></item>
-	</category>
-	
-	<category name="wcf.page">
-		<item name="wcf.page.com.uz.wcf.quiz.QuizPage"><![CDATA[Quiz]]></item>
-	</category>
-	
-	<category name="wcf.user.notification">
-		<item name="wcf.user.notification.com.uz.wcf.quiz"><![CDATA[Quiz]]></item>
-		<item name="wcf.user.notification.com.uz.wcf.quiz.user.notification.uzQuizQuestionOk"><![CDATA[Quiz question was accepted]]></item>
-	</category>
-	
-	<category name="wcf.user">
-		<item name="wcf.user.activityPoint.objectType.com.uz.wcf.quiz.activityPointEvent.quiz"><![CDATA[Quizzes Solved]]></item>
-		<item name="wcf.user.sortField.uzQuiz"><![CDATA[Quizzes]]></item>
-		<item name="wcf.user.sortField.uzQuizRate"><![CDATA[Quiz rate]]></item>
-	</category>
-	
-	<category name="wcf.user.condition">
-		<item name="wcf.user.condition.uzQuiz"><![CDATA[Quizzes played]]></item>
-		<item name="wcf.user.condition.uzQuizRate"><![CDATA[Quiz success rate [percent]]]></item>
-	</category>
-	
-	<category name="wcf.user.usersOnline">
-		<item name="wcf.user.usersOnline.location.QuizPage"><![CDATA[Quiz]]></item>
-	</category>
-	
-	<category name="wcf.user.quiz">
-		<item name="wcf.user.quiz.abortConfirm"><![CDATA[Do you really want to abort the quiz?]]></item>
-		<item name="wcf.user.quiz.alreadyRated"><![CDATA[You already have rated this quiz.]]></item>
-		<item name="wcf.user.quiz.best"><![CDATA[Best List]]></item>
-		<item name="wcf.user.quiz.browserAbort"><![CDATA[This action aborts the quiz. Data will not be stored and you have to restart the quiz.]]></item>
-		<item name="wcf.user.quiz.box.bestRated"><![CDATA[{$quiz->ratingTotal|quizRound} ({#$quiz->ratingCount} {if $quiz->ratingCount == 1}user{else}users{/if})]]></item>
-		<item name="wcf.user.quiz.box.bestSolver"><![CDATA[{$user->uzQuizRate|quizRound} percent with {#$user->uzQuiz} {if $user->uzQuiz == 1}quiz{else}quizzes{/if} solved]]></item>
-		<item name="wcf.user.quiz.box.favorite"><![CDATA[{#$quiz->counter} {if $quiz->counter == 1}Visit{else}Visits{/if}]]></item>
-		<item name="wcf.user.quiz.box.mostActive"><![CDATA[{#$user->uzQuiz} {if $user->uzQuiz == 1}Solve{else}Solves{/if}]]></item>
-		<item name="wcf.user.quiz.box.newest"><![CDATA[{@$quiz->time|dateDiff} | {#$quiz->counter} {if $quiz->counter == 1}Visit{else}Visits{/if}]]></item>
-		<item name="wcf.user.quiz.button.abort"><![CDATA[End Quiz]]></item>
-		<item name="wcf.user.quiz.button.abortrate"><![CDATA[Cancel]]></item>
-		<item name="wcf.user.quiz.button.best"><![CDATA[Best List]]></item>
-		<item name="wcf.user.quiz.button.next"><![CDATA[Next]]></item>
-		<item name="wcf.user.quiz.button.overview"><![CDATA[Goto overview]]></item>
-		<item name="wcf.user.quiz.button.rate"><![CDATA[Rate]]></item>
-		<item name="wcf.user.quiz.button.result"><![CDATA[Result]]></item>
-		<item name="wcf.user.quiz.button.save"><![CDATA[Confirm]]></item>
-		<item name="wcf.user.quiz.button.sort"><![CDATA[Sort]]></item>
-		<item name="wcf.user.quiz.button.stats"><![CDATA[Statistics]]></item>
-		<item name="wcf.user.quiz.button.unrate"><![CDATA[Unrate]]></item>
-		<item name="wcf.user.quiz.comment.addedGroups"><![CDATA[<strong>Congratulation. You were assigned to the following user group(s): {$value}.</strong>]]></item>
-		<item name="wcf.user.quiz.comment.notAddedGroups"><![CDATA[<strong>You missed the success rate{if $value} of {$value} percent{/if} and were not assigned to the user group(s).</strong>]]></item>
-		<item name="wcf.user.quiz.comment.zeroToTen"><![CDATA[This is a really bad result.]]></item>
-		<item name="wcf.user.quiz.comment.tenToThirtyfive"><![CDATA[This is a bad result.]]></item>
-		<item name="wcf.user.quiz.comment.thirtyfiveToSixtyfive"><![CDATA[This is only an average result.]]></item>
-		<item name="wcf.user.quiz.comment.sixtyfiveToNinety"><![CDATA[This is a good result.]]></item>
-		<item name="wcf.user.quiz.comment.ninetyToNinetynine"><![CDATA[This is a really good result.]]></item>
-		<item name="wcf.user.quiz.comment.hundert"><![CDATA[Simply perfect ...]]></item>
-		<item name="wcf.user.quiz.copyright"><![CDATA[<a href="https://www.zaydowicz.de/" rel="nofollow"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Quiz Software: <strong>Quiz by zaydowicz.de</strong></a>]]></item>
-		<item name="wcf.user.quiz.correct"><![CDATA[Solution:]]></item>
-		<item name="wcf.user.quiz.error.noSelection"><![CDATA[You have to select an answer.]]></item>
-		<item name="wcf.user.quiz.error.parameter"><![CDATA[A parameter problem was detected. Please, restart the quiz.]]></item>
-		<item name="wcf.user.quiz.filter.all"><![CDATA[All Quizzes]]></item>
-		<item name="wcf.user.quiz.filter.played"><![CDATA[Solved Quizzes]]></item>
-		<item name="wcf.user.quiz.filter.unplayed"><![CDATA[Unsolved Quizzes]]></item>
-		<item name="wcf.user.quiz.isDisabled"><![CDATA[The quiz is disabled]]></item>
-		<item name="wcf.user.quiz.markAsRead"><![CDATA[Mark All as Read]]></item>
-		<item name="wcf.user.quiz.menu"><![CDATA[Quiz]]></item>
-		<item name="wcf.user.quiz.menu.question"><![CDATA[My Questions]]></item>
-		<item name="wcf.user.quiz.menu.result"><![CDATA[My Results]]></item>
-		<item name="wcf.user.quiz.noQuizes"><![CDATA[There are presently no quizzes.]]></item>
-		<item name="wcf.user.quiz.noSolves"><![CDATA[There are presently no results.]]></item>
-		
-		<item name="wcf.user.quiz.notification.question.title"><![CDATA[Quiz-Frage akzeptiert]]></item>
-		<item name="wcf.user.quiz.notification.question.message"><![CDATA[Your Quiz question “{lang}{$question->question}{/lang}” was accepted.]]></item>
-		<item name="wcf.user.quiz.notification.question.mail.plaintext"><![CDATA[Your Quiz question “{lang}{$event->getUserNotificationObject()->question}{/lang}” was accepted. You can call your list of questions by following the link: [URL:{link controller="QuizQuestionList" forceFrontend=true isEmail=true}{/link}]]]></item>
-		<item name="wcf.user.quiz.notification.question.mail.html"><![CDATA[<p>Your Quiz question “{lang}{$event->getUserNotificationObject()->question}{/lang}” was accepted. You can call your list of questions by following the link: <a href="{link controller="QuizQuestionList" forceFrontend=true isHtmlEmail=true}{/link}">Quiz-Fragen</a></p>]]></item>
-		
-		<item name="wcf.user.quiz.mustPause"><![CDATA[You can solve the quiz again: In {if $xhours>0}{#$xhours} hour{if $xhours!=1}s{/if}, {#$xmins} minute{if $xmins!=1}s{/if} and {#$xsecs} second{if $xsecs!=1}s{/if}{else}{if $xmins>0}{#$xmins} minute{if $xmins!=1}s{/if} and {#$xsecs} second{if $xsecs!=1}s{/if}{else}{#$xsecs} second{if $xsecs!=1}s{/if}{/if}{/if}.]]></item>
-		<item name="wcf.user.quiz.open"><![CDATA[Open quiz page]]></item>
-		<item name="wcf.user.quiz.paused"><![CDATA[You may solve the quiz again in {#$hours} hour{if $hours!=1}s{/if} and {#$minutes} minute{if $minutes!=1}s{/if}.]]></item>
-		<item name="wcf.user.quiz.percent"><![CDATA[%]]></item>
-		<item name="wcf.user.quiz.percent.text"><![CDATA[percent]]></item>
-		<item name="wcf.user.quiz.periodExpired"><![CDATA[The quiz has expired: {@$quiz->periodEnd|dateDiff}]]></item>
-		<item name="wcf.user.quiz.periodPending"><![CDATA[The quiz will be activated: {@$quiz->periodStart|dateDiff}]]></item>
-		<item name="wcf.user.quiz.periodValid"><![CDATA[The quiz will expire: {@$quiz->periodEnd|dateDiff}]]></item>
-		<item name="wcf.user.quiz.played"><![CDATA[You have already solved this quiz.]]></item>
-		<item name="wcf.user.quiz.question"><![CDATA[Question]]></item>
-		<item name="wcf.user.quiz.questions"><![CDATA[Questions]]></item>
-		<item name="wcf.user.quiz.question.delete.sure"><![CDATA[Do you really want to delete this question?]]></item>
-		<item name="wcf.user.quiz.question.editedBy"><![CDATA[edited by]]></item>
-		<item name="wcf.user.quiz.question.from"><![CDATA[by]]></item>
-		<item name="wcf.user.quiz.question.inUse"><![CDATA[The question was approved and is used for quizzes. It can't be edited resp. deleted anymore.]]></item>
-		<item name="wcf.user.quiz.question.report"><![CDATA[The user has submitted a new Quiz question.]]></item>
-		<item name="wcf.user.quiz.quiz"><![CDATA[Quiz]]></item>
-		<item name="wcf.user.quiz.rate"><![CDATA[Rate]]></item>
-		<item name="wcf.user.quiz.rating"><![CDATA[Rating]]></item>
-		<item name="wcf.user.quiz.rating.details"><![CDATA[Rating Details]]></item>
-		<item name="wcf.user.quiz.rating.mustPlay"><![CDATA[To rate the quiz you must have played it at leat once.]]></item>
-		<item name="wcf.user.quiz.rating.noRating"><![CDATA[No rating yet]]></item>
-		<item name="wcf.user.quiz.rating.rate.success"><![CDATA[The rating was saved.]]></item>
-		<item name="wcf.user.quiz.rating.recentActivity"><![CDATA[Has rated the quiz <a href="{$quiz->getLink()}">{lang}{$quiz->title}{/lang}</a>.]]></item>
-		<item name="wcf.user.quiz.rating.unrate.success"><![CDATA[The rating was deleted.]]></item>
-		<item name="wcf.user.quiz.recentActivity"><![CDATA[Has solved the quiz <a href="{$quiz->getLink()}">{lang}{$quiz->title}{/lang}</a>.]]></item>
-		<item name="wcf.user.quiz.result"><![CDATA[Result]]></item>
-		<item name="wcf.user.quiz.result.correct"><![CDATA[Your answer is correct.]]></item>
-		<item name="wcf.user.quiz.result.detail"><![CDATA[You correctly answered {$correct} of {$total} questions.]]></item>
-		<item name="wcf.user.quiz.result.detail.off"><![CDATA[Your result was saved.]]></item>
-		<item name="wcf.user.quiz.result.saved"><![CDATA[Your answer was saved.]]></item>
-		<item name="wcf.user.quiz.result.wrong"><![CDATA[Your answer is incorrect.]]></item>
-		<item name="wcf.user.quiz.result.your"><![CDATA[Your Result]]></item>
-		<item name="wcf.user.quiz.resultDialog.correct"><![CDATA[Correctly answered Questions]]></item>
-		<item name="wcf.user.quiz.resultDialog.correct.answers"><![CDATA[Solutions]]></item>
-		<item name="wcf.user.quiz.resultDialog.hide"><![CDATA[Result held back]]></item>
-		<item name="wcf.user.quiz.resultDialog.none"><![CDATA[None]]></item>
-		<item name="wcf.user.quiz.resultDialog.result"><![CDATA[Solutions]]></item>
-		<item name="wcf.user.quiz.resultDialog.wrong"><![CDATA[Incorrectly answered Questions]]></item>
-		<item name="wcf.user.quiz.results"><![CDATA[Results]]></item>
-		<item name="wcf.user.quiz.sort.categoryID"><![CDATA[Category]]></item>
-		<item name="wcf.user.quiz.sort.count"><![CDATA[Answers]]></item>
-		<item name="wcf.user.quiz.sort.counter"><![CDATA[Views]]></item>
-		<item name="wcf.user.quiz.sort.question"><![CDATA[Question]]></item>
-		<item name="wcf.user.quiz.sort.questions"><![CDATA[Questions]]></item>
-		<item name="wcf.user.quiz.sort.ratingTotal"><![CDATA[Rating]]></item>
-		<item name="wcf.user.quiz.sort.showOrder"><![CDATA[Default]]></item>
-		<item name="wcf.user.quiz.sort.time"><![CDATA[Creation]]></item>
-		<item name="wcf.user.quiz.sort.timeLimit"><![CDATA[Time limit]]></item>
-		<item name="wcf.user.quiz.sort.title"><![CDATA[Title]]></item>
-		<item name="wcf.user.quiz.start"><![CDATA[Start Quiz]]></item>
-		<item name="wcf.user.quiz.stats"><![CDATA[Statistics]]></item>
-		<item name="wcf.user.quiz.stats.best"><![CDATA[Best Results]]></item>
-		<item name="wcf.user.quiz.stats.created"><![CDATA[Quiz created on {$quiz->time|date}]]></item>
-		<item name="wcf.user.quiz.stats.latest"><![CDATA[Latest Results]]></item>
-		<item name="wcf.user.quiz.stats.questions"><![CDATA[{#$quiz->getQuestionCount()} {if 1 == $quiz->getQuestionCount()}question{else}questions{/if}]]></item>
-		<item name="wcf.user.quiz.stats.solves"><![CDATA[{#$quiz->counter} {if $quiz->counter == 1}visit{else}visits{/if}]]></item>
-		<item name="wcf.user.quiz.stats.rate"><![CDATA[The average success rate is {$rate|quizRound} percent.]]></item>
-		<item name="wcf.user.quiz.stats.user"><![CDATA[{#$stats.count} quiz{if $stats.count != 1}zes{/if} solved - {@$stats.results|quizRound} % success rate]]></item>
-		<item name="wcf.user.quiz.time"><![CDATA[Date]]></item>
-		<item name="wcf.user.quiz.timeExpired"><![CDATA[The time limit for this quiz is reached and the quiz was aborted. The remaining questions will be evaluated as incorrectly answered.]]></item>
-		<item name="wcf.user.quiz.timeExpired.title"><![CDATA[Time Expired]]></item>
-		<item name="wcf.user.quiz.timeLeft"><![CDATA[Remaining time]]></item>
-		<item name="wcf.user.quiz.timedQuiz"><![CDATA[The quiz must be solved within {if $quiz->timeLimit>3599}{'H:i:s'|gmdate:$quiz->timeLimit} hours{elseif $quiz->timeLimit>59}{'i:s'|gmdate:$quiz->timeLimit} minutes{else}{'s'|gmdate:$quiz->timeLimit} seconds{/if}.]]></item>
-		<item name="wcf.user.quiz.user"><![CDATA[User]]></item>
-		<item name="wcf.user.quiz.users"><![CDATA[Users]]></item>
-		<item name="wcf.user.quiz.userSolves"><![CDATA[Quizzes]]></item>
-		<item name="wcf.user.quiz.userRates"><![CDATA[Quiz rate]]></item>
-	</category>
-	
-	<category name="wcf.user.recentActivity">
-		<item name="wcf.user.recentActivity.com.uz.wcf.quiz.recentActivityEvent.quiz"><![CDATA[Quiz]]></item>
-		<item name="wcf.user.recentActivity.com.uz.wcf.quiz.recentActivityEvent.quizRating"><![CDATA[Quiz Rating]]></item>
-	</category>
+    <category name="wcf.acp.box">
+        <item name="wcf.acp.box.boxController.com.uz.wcf.quiz.BestSolver"><![CDATA[Members with the best quiz results]]></item>
+        <item name="wcf.acp.box.boxController.com.uz.wcf.quiz.QuizBestRated"><![CDATA[Best Rated Quizzes]]></item>
+        <item name="wcf.acp.box.boxController.com.uz.wcf.quiz.QuizFavorite"><![CDATA[Favorite Quizzes]]></item>
+        <item name="wcf.acp.box.boxController.com.uz.wcf.quiz.QuizNewest"><![CDATA[Newest Quizzes]]></item>
+        <item name="wcf.acp.box.boxController.com.uz.wcf.quiz.TopSolver"><![CDATA[Members with the most quiz solves]]></item>
+    </category>
+
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.category.admin.quiz"><![CDATA[Quiz]]></item>
+        <item name="wcf.acp.group.option.category.user.quiz"><![CDATA[Quiz]]></item>
+        <item name="wcf.acp.group.option.admin.community.canManageQuiz"><![CDATA[Can manage quizzes]]></item>
+        <item name="wcf.acp.group.option.user.quiz.canPlay"><![CDATA[Can solve quizzes]]></item>
+        <item name="wcf.acp.group.option.user.quiz.canRate"><![CDATA[Can rate quizzes]]></item>
+        <item name="wcf.acp.group.option.user.quiz.canSee"><![CDATA[Can see quizzes]]></item>
+        <item name="wcf.acp.group.option.user.quiz.canSeeOtherGroup"><![CDATA[Can see quizzes for other user group(s)]]></item>
+        <item name="wcf.acp.group.option.user.quiz.canSeeRating"><![CDATA[Can see quiz ratings]]></item>
+        <item name="wcf.acp.group.option.user.quiz.canSeeRatingDetails"><![CDATA[Can see quiz rating details]]></item>
+        <item name="wcf.acp.group.option.user.quiz.canSubmitQuestions"><![CDATA[Can submit questions]]></item>
+        <item name="wcf.acp.group.option.user.quiz.canSubmitImage"><![CDATA[Can upload images for questions]]></item>
+    </category>
+
+    <category name="wcf.acp.menu">
+        <item name="wcf.acp.menu.link.quiz"><![CDATA[Quiz]]></item>
+        <item name="wcf.acp.menu.link.quiz.add"><![CDATA[Add Quiz]]></item>
+        <item name="wcf.acp.menu.link.quiz.list"><![CDATA[Quizzes ]]></item>
+        <item name="wcf.acp.menu.link.quiz.category.add"><![CDATA[Add Category]]></item>
+        <item name="wcf.acp.menu.link.quiz.category.list"><![CDATA[Categories]]></item>
+        <item name="wcf.acp.menu.link.quiz.question.add"><![CDATA[Add Question]]></item>
+        <item name="wcf.acp.menu.link.quiz.question.list"><![CDATA[Questions]]></item>
+    </category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.category.quiz"><![CDATA[Quiz]]></item>
+        <item name="wcf.acp.option.category.quiz.general"><![CDATA[General]]></item>
+        <item name="wcf.acp.option.category.quiz.general.best"><![CDATA[Best list]]></item>
+        <item name="wcf.acp.option.category.quiz.general.category"><![CDATA[Categories]]></item>
+        <item name="wcf.acp.option.category.quiz.general.filter"><![CDATA[Filter on Quiz page]]></item>
+        <item name="wcf.acp.option.category.quiz.general.group"><![CDATA[User Group Assignment]]></item>
+        <item name="wcf.acp.option.category.quiz.general.user"><![CDATA[Display with user]]></item>
+        <item name="wcf.acp.option.category.quiz.rating"><![CDATA[Rating]]></item>
+        <item name="wcf.acp.option.category.quiz.sort"><![CDATA[Sort Order]]></item>
+        <item name="wcf.acp.option.module_uzquiz"><![CDATA[Quiz]]></item>
+        <item name="wcf.acp.option.module_uzquiz_report"><![CDATA[Quiz - report new user question]]></item>
+        <item name="wcf.acp.option.module_uzquiz_activity"><![CDATA[Quiz - show activity]]></item>
+        <item name="wcf.acp.option.quiz_best_once"><![CDATA[Only best result]]></item>
+        <item name="wcf.acp.option.quiz_best_once.description"><![CDATA[Users will be listed in the best list of a quiz only once with their best result.]]></item>
+        <item name="wcf.acp.option.quiz_best_overall"><![CDATA[Top Quizzer]]></item>
+        <item name="wcf.acp.option.quiz_best_overall.description"><![CDATA[Users will be listed in the best list of all quizzers only, if they have solved the inserted number of quizzes.]]></item>
+        <item name="wcf.acp.option.quiz_category_on"><![CDATA[Use categories]]></item>
+        <item name="wcf.acp.option.quiz_category_on.description"><![CDATA[Activates categorizing of quiz questions.]]></item>
+        <item name="wcf.acp.option.quiz_default_sort_field"><![CDATA[Sort Field]]></item>
+        <item name="wcf.acp.option.quiz_default_sort_field.description"><![CDATA[Sequence of quizzes on Quiz page.]]></item>
+        <item name="wcf.acp.option.quiz_default_sort_order"><![CDATA[Sort Order]]></item>
+        <item name="wcf.acp.option.quiz_filter"><![CDATA[Show]]></item>
+        <item name="wcf.acp.option.quiz_filter_success"><![CDATA[Show unsuccessfully solved quizzes as unsolved]]></item>
+        <item name="wcf.acp.option.quiz_group_on"><![CDATA[Activate Assignments]]></item>
+        <item name="wcf.acp.option.quiz_rating_activate"><![CDATA[Activate]]></item>
+        <item name="wcf.acp.option.quiz_rating_one"><![CDATA[Worst Rating]]></item>
+        <item name="wcf.acp.option.quiz_rating_two"><![CDATA[Rating 2]]></item>
+        <item name="wcf.acp.option.quiz_rating_three"><![CDATA[Rating 3]]></item>
+        <item name="wcf.acp.option.quiz_rating_four"><![CDATA[Rating 4]]></item>
+        <item name="wcf.acp.option.quiz_rating_five"><![CDATA[Best Rating]]></item>
+        <item name="wcf.acp.option.quiz.rating_one"><![CDATA[very bad]]></item>
+        <item name="wcf.acp.option.quiz.rating_two"><![CDATA[bad]]></item>
+        <item name="wcf.acp.option.quiz.rating_three"><![CDATA[not too bad]]></item>
+        <item name="wcf.acp.option.quiz.rating_four"><![CDATA[good]]></item>
+        <item name="wcf.acp.option.quiz.rating_five"><![CDATA[very good]]></item>
+        <item name="wcf.acp.option.quiz_user_quizzes"><![CDATA[Solved Quizzes]]></item>
+        <item name="wcf.acp.option.quiz_user_quizRates"><![CDATA[Quiz Rate]]></item>
+    </category>
+
+    <category name="wcf.acp.quiz">
+        <item name="wcf.acp.quiz.filter"><![CDATA[Filter]]></item>
+        <item name="wcf.acp.quiz.filter.description"><![CDATA[Enter a character string to filter by username, category name and question texts in all languages.]]></item>
+        <item name="wcf.acp.quiz.filter.placeholder"><![CDATA[No filter]]></item>
+        <item name="wcf.acp.quiz.no"><![CDATA[no]]></item>
+        <item name="wcf.acp.quiz.noQuiz"><![CDATA[No quiz found.]]></item>
+        <item name="wcf.acp.quiz.preview"><![CDATA[Preview]]></item>
+        <item name="wcf.acp.quiz.question.add"><![CDATA[Add Question]]></item>
+        <item name="wcf.acp.quiz.question.answers"><![CDATA[Answers]]></item>
+        <item name="wcf.acp.quiz.question.answers.error.missing"><![CDATA[Either add this answer or delete the following answers.]]></item>
+        <item name="wcf.acp.quiz.question.answerOne"><![CDATA[1st Answer]]></item>
+        <item name="wcf.acp.quiz.question.answerTwo"><![CDATA[2nd Answer]]></item>
+        <item name="wcf.acp.quiz.question.answerThree"><![CDATA[3rd Answer]]></item>
+        <item name="wcf.acp.quiz.question.answerFour"><![CDATA[4th Answer]]></item>
+        <item name="wcf.acp.quiz.question.answerFive"><![CDATA[5th Answer]]></item>
+        <item name="wcf.acp.quiz.question.answerSix"><![CDATA[6th Answer]]></item>
+        <item name="wcf.acp.quiz.question.categoryID"><![CDATA[Category]]></item>
+        <item name="wcf.acp.quiz.question.categoryID.all"><![CDATA[All categories]]></item>
+        <item name="wcf.acp.quiz.question.categoryID.default"><![CDATA[Default category]]></item>
+        <item name="wcf.acp.quiz.question.categoryID.error.notFound"><![CDATA[No questions were found.]]></item>
+        <item name="wcf.acp.quiz.question.categoryID.error.notSelected"><![CDATA[Please select at least one category.]]></item>
+        <item name="wcf.acp.quiz.question.comment"><![CDATA[Comment]]></item>
+        <item name="wcf.acp.quiz.question.comment.description"><![CDATA[The comment is shown after a question is answered.]]></item>
+        <item name="wcf.acp.quiz.question.correct"><![CDATA[Correct Answer]]></item>
+        <item name="wcf.acp.quiz.question.correct.error.incorrect"><![CDATA[The answer defined as correct doesn't exist.]]></item>
+        <item name="wcf.acp.quiz.question.count"><![CDATA[Answers]]></item>
+        <item name="wcf.acp.quiz.question.delete.sure"><![CDATA[Do you really want to delete the answer?]]></item>
+        <item name="wcf.acp.quiz.question.deleteImage"><![CDATA[Remove image after storing question]]></item>
+        <item name="wcf.acp.quiz.question.edit"><![CDATA[Edit Question]]></item>
+        <item name="wcf.acp.quiz.question.empty"><![CDATA[(empty)]]></item>
+        <item name="wcf.acp.quiz.question.general"><![CDATA[Question]]></item>
+        <item name="wcf.acp.quiz.question.image"><![CDATA[Image]]></item>
+        <item name="wcf.acp.quiz.question.image.description"><![CDATA[Upload an image for this question, acceptable image types are JP(E)G and PNG. Dimensions should be 800px × 600px, exceeding images will be scaled.]]></item>
+        <item name="wcf.acp.quiz.question.image.error.invalidExtension"><![CDATA[The file extension is invalid. Please use only JP(E)G or PNG.]]></item>
+        <item name="wcf.acp.quiz.question.list"><![CDATA[Questions]]></item>
+        <item name="wcf.acp.quiz.question.preview"><![CDATA[Preview]]></item>
+        <item name="wcf.acp.quiz.question.question"><![CDATA[Question]]></item>
+        <item name="wcf.acp.quiz.question.time"><![CDATA[Created]]></item>
+        <item name="wcf.acp.quiz.question.unknown"><![CDATA[Unkonwn question]]></item>
+        <item name="wcf.acp.quiz.question.used"><![CDATA[This question is used by at least one quiz and can't be deleted. Click the icon to open a list with quizzes using this question.]]></item>
+        <item name="wcf.acp.quiz.question.usedBy"><![CDATA[The question is used by the following quizzes:]]></item>
+        <item name="wcf.acp.quiz.question.user"><![CDATA[The question was submitted by a user and can't be edited here.]]></item>
+        <item name="wcf.acp.quiz.question.user.warning"><![CDATA[You are editing a question, which was submitted by a user.]]></item>
+        <item name="wcf.acp.quiz.question.username"><![CDATA[Author]]></item>
+        <item name="wcf.acp.quiz.quizList"><![CDATA[Quiz List]]></item>
+        <item name="wcf.acp.quiz.quiz.add"><![CDATA[Add Quiz]]></item>
+        <item name="wcf.acp.quiz.quiz.answers"><![CDATA[Display after Answers / Quiz]]></item>
+        <item name="wcf.acp.quiz.quiz.assignGroupIDs"><![CDATA[User Group(s)]]></item>
+        <item name="wcf.acp.quiz.quiz.assignResult"><![CDATA[Result]]></item>
+        <item name="wcf.acp.quiz.quiz.assignResult.description"><![CDATA[Required result for user group assignment [in percent].]]></item>
+        <item name="wcf.acp.quiz.quiz.autoInsert"><![CDATA[Automatically add Questions]]></item>
+        <item name="wcf.acp.quiz.quiz.conditions"><![CDATA[Conditions]]></item>
+        <item name="wcf.acp.quiz.quiz.conditions.description"><![CDATA[User must fulfill the following conditions to solve the quiz]]></item>
+        <item name="wcf.acp.quiz.quiz.counter"><![CDATA[Solved]]></item>
+        <item name="wcf.acp.quiz.quiz.delete.sure"><![CDATA[Do you really want to delete this quiz?]]></item>
+        <item name="wcf.acp.quiz.quiz.deleteImage"><![CDATA[Remove image after storing quiz]]></item>
+        <item name="wcf.acp.quiz.quiz.edit"><![CDATA[Edit Quiz]]></item>
+        <item name="wcf.acp.quiz.quiz.error.invalidGroup"><![CDATA[An invalid user group was choosen.]]></item>
+        <item name="wcf.acp.quiz.quiz.error.noQuestions"><![CDATA[Please <a href="{link controller='QuestionList'}{/link}">add resp. activate questions</a> before creating quizzes.]]></item>
+        <item name="wcf.acp.quiz.quiz.expire"><![CDATA[Expiration]]></item>
+        <item name="wcf.acp.quiz.quiz.general"><![CDATA[General]]></item>
+        <item name="wcf.acp.quiz.quiz.groups"><![CDATA[User Groups]]></item>
+        <item name="wcf.acp.quiz.quiz.groups.description"><![CDATA[Optionally, you may assign users, who solved the quiz, to one or more user groups.]]></item>
+        <item name="wcf.acp.quiz.quiz.hasPeriod"><![CDATA[Limit validity period]]></item>
+        <item name="wcf.acp.quiz.quiz.image"><![CDATA[Image]]></item>
+        <item name="wcf.acp.quiz.quiz.image.description"><![CDATA[Upload an image for this quiz, which is shown on the quoz overview page. Acceptable image types are JP(E)G and PNG. Dimensions should be 102px × 64px, exceeding images will be scaled.]]></item>
+        <item name="wcf.acp.quiz.quiz.image.error.invalidExtension"><![CDATA[The file extension is invalid. Please use only JP(E)G or PNG.]]></item>
+        <item name="wcf.acp.quiz.quiz.insert"><![CDATA[Insert]]></item>
+        <item name="wcf.acp.quiz.quiz.isActive"><![CDATA[Activate]]></item>
+        <item name="wcf.acp.quiz.quiz.limits"><![CDATA[Limitations]]></item>
+        <item name="wcf.acp.quiz.quiz.list"><![CDATA[Quiz]]></item>
+        <item name="wcf.acp.quiz.quiz.paused"><![CDATA[Time Lock]]></item>
+        <item name="wcf.acp.quiz.quiz.paused.description"><![CDATA[Specify the time a user must wait before being allowed to play the quiz again. 0 cancels the block.]]></item>
+        <item name="wcf.acp.quiz.quiz.period.end"><![CDATA[End]]></item>
+        <item name="wcf.acp.quiz.quiz.period.end.error.beforeStart"><![CDATA[The end of the validity period must be after its start.]]></item>
+        <item name="wcf.acp.quiz.quiz.period.end.error.inPast"><![CDATA[The end of the validity period is in the past.]]></item>
+        <item name="wcf.acp.quiz.quiz.period.end.error.invalid"><![CDATA[Invalid date]]></item>
+        <item name="wcf.acp.quiz.quiz.period.start"><![CDATA[Start]]></item>
+        <item name="wcf.acp.quiz.quiz.period.start.error.invalid"><![CDATA[Invalid date]]></item>
+        <item name="wcf.acp.quiz.quiz.playAgain"><![CDATA[Allow users to solve the quiz multiple times]]></item>
+        <item name="wcf.acp.quiz.quiz.points"><![CDATA[Point]]></item>
+        <item name="wcf.acp.quiz.quiz.points.description"><![CDATA[Points for a correct answer. The points are shown at the end of a quiz.]]></item>
+        <item name="wcf.acp.quiz.quiz.questionIDs"><![CDATA[Questions]]></item>
+        <item name="wcf.acp.quiz.quiz.questionIDs.description"><![CDATA[ID of the questions, which are to be assigned to this quiz. One ID per line.]]></item>
+        <item name="wcf.acp.quiz.quiz.questionIDs.error.missing"><![CDATA[You inserted non-existing questions: {$missingIDs}.]]></item>
+        <item name="wcf.acp.quiz.quiz.questionIDs.error.noQuestions"><![CDATA[You have to insert at least one question.]]></item>
+        <item name="wcf.acp.quiz.quiz.questions"><![CDATA[Questions]]></item>
+        <item name="wcf.acp.quiz.quiz.questionsSelected"><![CDATA[Selected Questions]]></item>
+        <item name="wcf.acp.quiz.quiz.randomize"><![CDATA[Randomize questions]]></item>
+        <item name="wcf.acp.quiz.quiz.randomize.description"><![CDATA[The sequence of questions is changed in a random order each time this quiz is played.]]></item>
+        <item name="wcf.acp.quiz.quiz.result"><![CDATA[Answers]]></item>
+        <item name="wcf.acp.quiz.quiz.showBest"><![CDATA[Show best list]]></item>
+        <item name="wcf.acp.quiz.quiz.showBest.description"><![CDATA[The button for opening the best list is displayed.]]></item>
+        <item name="wcf.acp.quiz.quiz.showStats"><![CDATA[Show statistics]]></item>
+        <item name="wcf.acp.quiz.quiz.showStats.description"><![CDATA[The button for opening the statistics is displayed.]]></item>
+        <item name="wcf.acp.quiz.quiz.showComment"><![CDATA[Show comment after answer]]></item>
+        <item name="wcf.acp.quiz.quiz.showComment.description"><![CDATA[After each question the comment for the question is displayed.]]></item>
+        <item name="wcf.acp.quiz.quiz.showCorrect"><![CDATA[Show accuracy of answer]]></item>
+        <item name="wcf.acp.quiz.quiz.showCorrect.description"><![CDATA[It is displayed after each question whether the answer is right or wrong. The result dialog shows how many and if applicable which questions were answered right and wrong.]]></item>
+        <item name="wcf.acp.quiz.quiz.showOrder"><![CDATA[Position]]></item>
+        <item name="wcf.acp.quiz.quiz.showOrder.description"><![CDATA[Position of this quiz on the quiz page.]]></item>
+        <item name="wcf.acp.quiz.quiz.showResult"><![CDATA[Show correct solution after answer]]></item>
+        <item name="wcf.acp.quiz.quiz.showResult.description"><![CDATA[The correct answer is displayed after each question. The correct answers are also displayed in the result dialog.]]></item>
+        <item name="wcf.acp.quiz.quiz.showResultButton"><![CDATA[Show result]]></item>
+        <item name="wcf.acp.quiz.quiz.showResultButton.description"><![CDATA[The button for opening the result dialog at the end of the quiz is displayed. The dialog content depends on the configuration of “Show accuracy of answer” and “Show correct solution after answer”.]]></item>
+        <item name="wcf.acp.quiz.quiz.text"><![CDATA[Text]]></item>
+        <item name="wcf.acp.quiz.quiz.time"><![CDATA[Created]]></item>
+        <item name="wcf.acp.quiz.quiz.timeLimit"><![CDATA[Time Limit]]></item>
+        <item name="wcf.acp.quiz.quiz.timeLimit.description"><![CDATA[Insert the time being available for solving the quiz. The maximum value is 86399, which equals almost 24 hours. 0 sets the time to unlimited.]]></item>
+        <item name="wcf.acp.quiz.quiz.title"><![CDATA[Title]]></item>
+        <item name="wcf.acp.quiz.quiz.title.error.tooLong"><![CDATA[The title is too long. At maximum, 255 characters can be used.]]></item>
+        <item name="wcf.acp.quiz.quiz.userGroupIDs"><![CDATA[User Group(s)]]></item>
+        <item name="wcf.acp.quiz.sort_creation"><![CDATA[Creation]]></item>
+        <item name="wcf.acp.quiz.sort_counter"><![CDATA[Views]]></item>
+        <item name="wcf.acp.quiz.sort_questions"><![CDATA[Questions]]></item>
+        <item name="wcf.acp.quiz.sort_showOrder"><![CDATA[Default (Position)]]></item>
+        <item name="wcf.acp.quiz.sort_timeLimit"><![CDATA[Time Limit]]></item>
+        <item name="wcf.acp.quiz.stats"><![CDATA[Statistics]]></item>
+        <item name="wcf.acp.quiz.stats.average"><![CDATA[{@$value|quizRound}% average]]></item>
+        <item name="wcf.acp.quiz.stats.averageRate"><![CDATA[<dl><dt>Average</dt><dd>{@$value|quizRound} %</dd></dl>]]></item>
+        <item name="wcf.acp.quiz.stats.counter"><![CDATA[<dl><dt>Solutions</dt><dd>{#$value}</dd></dl>]]></item>
+        <item name="wcf.acp.quiz.stats.maxRate"><![CDATA[<dl><dt>Maximum</dt><dd>{@$value|quizRound} %</dd></dl>]]></item>
+        <item name="wcf.acp.quiz.stats.minRate"><![CDATA[<dl><dt>Minimum</dt><dd>{@$value|quizRound} %</dd></dl>]]></item>
+        <item name="wcf.acp.quiz.stats.none"><![CDATA[The quiz has not yet been solved.]]></item>
+        <item name="wcf.acp.quiz.stats.questions"><![CDATA[{#$value} question{if $value!=1}s{/if}]]></item>
+        <item name="wcf.acp.quiz.stats.result"><![CDATA[Result in %]]></item>
+        <item name="wcf.acp.quiz.stats.time"><![CDATA[Time]]></item>
+        <item name="wcf.acp.quiz.stats.topUserTitle"><![CDATA[User Ranking]]></item>
+        <item name="wcf.acp.quiz.stats.userCount"><![CDATA[<dl><dt>User</dt><dd>{#$value}</dd></dl>]]></item>
+        <item name="wcf.acp.quiz.stats.username"><![CDATA[User]]></item>
+        <item name="wcf.acp.quiz.stats.users"><![CDATA[{#$value} user{if $value!=1}s{/if}]]></item>
+        <item name="wcf.acp.quiz.yes"><![CDATA[yes]]></item>
+    </category>
+
+    <category name="wcf.acp.stat">
+        <item name="wcf.acp.stat.com.uz.wcf.quiz"><![CDATA[Quiz Views]]></item>
+    </category>
+
+    <!-- dashboard -->
+    <category name="wcf.dashboard">
+        <item name="wcf.dashboard.box.com.uz.wcf.quiz.bestRated"><![CDATA[Best Rated Quizzes]]></item>
+        <item name="wcf.dashboard.box.com.uz.wcf.quiz.bestSolver"><![CDATA[Members with the best Quiz Results]]></item>
+        <item name="wcf.dashboard.box.com.uz.wcf.quiz.favorite"><![CDATA[Favorite Quizzes]]></item>
+        <item name="wcf.dashboard.box.com.uz.wcf.quiz.mostActive"><![CDATA[Members with the most Quizzes solved]]></item>
+        <item name="wcf.dashboard.box.com.uz.wcf.quiz.newest"><![CDATA[Newest Quizzes]]></item>
+        <item name="wcf.dashboard.objectType.com.uz.wcf.quiz.QuizPage"><![CDATA[Quiz]]></item>
+    </category>
+
+    <category name="wcf.page">
+        <item name="wcf.page.com.uz.wcf.quiz.QuizPage"><![CDATA[Quiz]]></item>
+    </category>
+
+    <category name="wcf.user.notification">
+        <item name="wcf.user.notification.com.uz.wcf.quiz"><![CDATA[Quiz]]></item>
+        <item name="wcf.user.notification.com.uz.wcf.quiz.user.notification.uzQuizQuestionOk"><![CDATA[Quiz question was accepted]]></item>
+    </category>
+
+    <category name="wcf.user">
+        <item name="wcf.user.activityPoint.objectType.com.uz.wcf.quiz.activityPointEvent.quiz"><![CDATA[Quizzes Solved]]></item>
+        <item name="wcf.user.sortField.uzQuiz"><![CDATA[Quizzes]]></item>
+        <item name="wcf.user.sortField.uzQuizRate"><![CDATA[Quiz rate]]></item>
+    </category>
+
+    <category name="wcf.user.condition">
+        <item name="wcf.user.condition.uzQuiz"><![CDATA[Quizzes played]]></item>
+        <item name="wcf.user.condition.uzQuizRate"><![CDATA[Quiz success rate [percent]]]></item>
+    </category>
+
+    <category name="wcf.user.usersOnline">
+        <item name="wcf.user.usersOnline.location.QuizPage"><![CDATA[Quiz]]></item>
+    </category>
+
+    <category name="wcf.user.quiz">
+        <item name="wcf.user.quiz.abortConfirm"><![CDATA[Do you really want to abort the quiz?]]></item>
+        <item name="wcf.user.quiz.alreadyRated"><![CDATA[You already have rated this quiz.]]></item>
+        <item name="wcf.user.quiz.best"><![CDATA[Best List]]></item>
+        <item name="wcf.user.quiz.browserAbort"><![CDATA[This action aborts the quiz. Data will not be stored and you have to restart the quiz.]]></item>
+        <item name="wcf.user.quiz.box.bestRated"><![CDATA[{$quiz->ratingTotal|quizRound} ({#$quiz->ratingCount} {if $quiz->ratingCount == 1}user{else}users{/if})]]></item>
+        <item name="wcf.user.quiz.box.bestSolver"><![CDATA[{$user->uzQuizRate|quizRound} percent with {#$user->uzQuiz} {if $user->uzQuiz == 1}quiz{else}quizzes{/if} solved]]></item>
+        <item name="wcf.user.quiz.box.favorite"><![CDATA[{#$quiz->counter} {if $quiz->counter == 1}Visit{else}Visits{/if}]]></item>
+        <item name="wcf.user.quiz.box.mostActive"><![CDATA[{#$user->uzQuiz} {if $user->uzQuiz == 1}Solve{else}Solves{/if}]]></item>
+        <item name="wcf.user.quiz.box.newest"><![CDATA[{@$quiz->time|dateDiff} | {#$quiz->counter} {if $quiz->counter == 1}Visit{else}Visits{/if}]]></item>
+        <item name="wcf.user.quiz.button.abort"><![CDATA[End Quiz]]></item>
+        <item name="wcf.user.quiz.button.abortrate"><![CDATA[Cancel]]></item>
+        <item name="wcf.user.quiz.button.best"><![CDATA[Best List]]></item>
+        <item name="wcf.user.quiz.button.next"><![CDATA[Next]]></item>
+        <item name="wcf.user.quiz.button.overview"><![CDATA[Goto overview]]></item>
+        <item name="wcf.user.quiz.button.rate"><![CDATA[Rate]]></item>
+        <item name="wcf.user.quiz.button.result"><![CDATA[Result]]></item>
+        <item name="wcf.user.quiz.button.save"><![CDATA[Confirm]]></item>
+        <item name="wcf.user.quiz.button.sort"><![CDATA[Sort]]></item>
+        <item name="wcf.user.quiz.button.stats"><![CDATA[Statistics]]></item>
+        <item name="wcf.user.quiz.button.unrate"><![CDATA[Unrate]]></item>
+        <item name="wcf.user.quiz.comment.addedGroups"><![CDATA[<strong>Congratulation. You were assigned to the following user group(s): {$value}.</strong>]]></item>
+        <item name="wcf.user.quiz.comment.notAddedGroups"><![CDATA[<strong>You missed the success rate{if $value} of {$value} percent{/if} and were not assigned to the user group(s).</strong>]]></item>
+        <item name="wcf.user.quiz.comment.zeroToTen"><![CDATA[This is a really bad result.]]></item>
+        <item name="wcf.user.quiz.comment.tenToThirtyfive"><![CDATA[This is a bad result.]]></item>
+        <item name="wcf.user.quiz.comment.thirtyfiveToSixtyfive"><![CDATA[This is only an average result.]]></item>
+        <item name="wcf.user.quiz.comment.sixtyfiveToNinety"><![CDATA[This is a good result.]]></item>
+        <item name="wcf.user.quiz.comment.ninetyToNinetynine"><![CDATA[This is a really good result.]]></item>
+        <item name="wcf.user.quiz.comment.hundert"><![CDATA[Simply perfect ...]]></item>
+        <item name="wcf.user.quiz.copyright"><![CDATA[<a href="https://www.zaydowicz.de/" rel="nofollow"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Quiz Software: <strong>Quiz by zaydowicz.de</strong></a>]]></item>
+        <item name="wcf.user.quiz.correct"><![CDATA[Solution:]]></item>
+        <item name="wcf.user.quiz.error.noSelection"><![CDATA[You have to select an answer.]]></item>
+        <item name="wcf.user.quiz.error.parameter"><![CDATA[A parameter problem was detected. Please, restart the quiz.]]></item>
+        <item name="wcf.user.quiz.filter.all"><![CDATA[All Quizzes]]></item>
+        <item name="wcf.user.quiz.filter.played"><![CDATA[Solved Quizzes]]></item>
+        <item name="wcf.user.quiz.filter.unplayed"><![CDATA[Unsolved Quizzes]]></item>
+        <item name="wcf.user.quiz.isDisabled"><![CDATA[The quiz is disabled]]></item>
+        <item name="wcf.user.quiz.markAsRead"><![CDATA[Mark All as Read]]></item>
+        <item name="wcf.user.quiz.menu"><![CDATA[Quiz]]></item>
+        <item name="wcf.user.quiz.menu.question"><![CDATA[My Questions]]></item>
+        <item name="wcf.user.quiz.menu.result"><![CDATA[My Results]]></item>
+        <item name="wcf.user.quiz.noQuizes"><![CDATA[There are presently no quizzes.]]></item>
+        <item name="wcf.user.quiz.noSolves"><![CDATA[There are presently no results.]]></item>
+
+        <item name="wcf.user.quiz.notification.question.title"><![CDATA[Quiz-Frage akzeptiert]]></item>
+        <item name="wcf.user.quiz.notification.question.message"><![CDATA[Your Quiz question “{lang}{$question->question}{/lang}” was accepted.]]></item>
+        <item name="wcf.user.quiz.notification.question.mail.plaintext"><![CDATA[Your Quiz question “{lang}{$event->getUserNotificationObject()->question}{/lang}” was accepted. You can call your list of questions by following the link: [URL:{link controller="QuizQuestionList" forceFrontend=true isEmail=true}{/link}]]]></item>
+        <item name="wcf.user.quiz.notification.question.mail.html"><![CDATA[<p>Your Quiz question “{lang}{$event->getUserNotificationObject()->question}{/lang}” was accepted. You can call your list of questions by following the link: <a href="{link controller="QuizQuestionList" forceFrontend=true isHtmlEmail=true}{/link}">Quiz-Fragen</a></p>]]></item>
+
+        <item name="wcf.user.quiz.mustPause"><![CDATA[You can solve the quiz again: In {if $xhours>0}{#$xhours} hour{if $xhours!=1}s{/if}, {#$xmins} minute{if $xmins!=1}s{/if} and {#$xsecs} second{if $xsecs!=1}s{/if}{else}{if $xmins>0}{#$xmins} minute{if $xmins!=1}s{/if} and {#$xsecs} second{if $xsecs!=1}s{/if}{else}{#$xsecs} second{if $xsecs!=1}s{/if}{/if}{/if}.]]></item>
+        <item name="wcf.user.quiz.open"><![CDATA[Open quiz page]]></item>
+        <item name="wcf.user.quiz.paused"><![CDATA[You may solve the quiz again in {#$hours} hour{if $hours!=1}s{/if} and {#$minutes} minute{if $minutes!=1}s{/if}.]]></item>
+        <item name="wcf.user.quiz.percent"><![CDATA[%]]></item>
+        <item name="wcf.user.quiz.percent.text"><![CDATA[percent]]></item>
+        <item name="wcf.user.quiz.periodExpired"><![CDATA[The quiz has expired: {@$quiz->periodEnd|dateDiff}]]></item>
+        <item name="wcf.user.quiz.periodPending"><![CDATA[The quiz will be activated: {@$quiz->periodStart|dateDiff}]]></item>
+        <item name="wcf.user.quiz.periodValid"><![CDATA[The quiz will expire: {@$quiz->periodEnd|dateDiff}]]></item>
+        <item name="wcf.user.quiz.played"><![CDATA[You have already solved this quiz.]]></item>
+        <item name="wcf.user.quiz.question"><![CDATA[Question]]></item>
+        <item name="wcf.user.quiz.questions"><![CDATA[Questions]]></item>
+        <item name="wcf.user.quiz.question.delete.sure"><![CDATA[Do you really want to delete this question?]]></item>
+        <item name="wcf.user.quiz.question.editedBy"><![CDATA[edited by]]></item>
+        <item name="wcf.user.quiz.question.from"><![CDATA[by]]></item>
+        <item name="wcf.user.quiz.question.inUse"><![CDATA[The question was approved and is used for quizzes. It can't be edited resp. deleted anymore.]]></item>
+        <item name="wcf.user.quiz.question.report"><![CDATA[The user has submitted a new Quiz question.]]></item>
+        <item name="wcf.user.quiz.quiz"><![CDATA[Quiz]]></item>
+        <item name="wcf.user.quiz.rate"><![CDATA[Rate]]></item>
+        <item name="wcf.user.quiz.rating"><![CDATA[Rating]]></item>
+        <item name="wcf.user.quiz.rating.details"><![CDATA[Rating Details]]></item>
+        <item name="wcf.user.quiz.rating.mustPlay"><![CDATA[To rate the quiz you must have played it at leat once.]]></item>
+        <item name="wcf.user.quiz.rating.noRating"><![CDATA[No rating yet]]></item>
+        <item name="wcf.user.quiz.rating.rate.success"><![CDATA[The rating was saved.]]></item>
+        <item name="wcf.user.quiz.rating.recentActivity"><![CDATA[Has rated the quiz <a href="{$quiz->getLink()}">{lang}{$quiz->title}{/lang}</a>.]]></item>
+        <item name="wcf.user.quiz.rating.unrate.success"><![CDATA[The rating was deleted.]]></item>
+        <item name="wcf.user.quiz.recentActivity"><![CDATA[Has solved the quiz <a href="{$quiz->getLink()}">{lang}{$quiz->title}{/lang}</a>.]]></item>
+        <item name="wcf.user.quiz.result"><![CDATA[Result]]></item>
+        <item name="wcf.user.quiz.result.correct"><![CDATA[Your answer is correct.]]></item>
+        <item name="wcf.user.quiz.result.detail"><![CDATA[You correctly answered {$correct} of {$total} questions.]]></item>
+        <item name="wcf.user.quiz.result.detail.off"><![CDATA[Your result was saved.]]></item>
+        <item name="wcf.user.quiz.result.saved"><![CDATA[Your answer was saved.]]></item>
+        <item name="wcf.user.quiz.result.wrong"><![CDATA[Your answer is incorrect.]]></item>
+        <item name="wcf.user.quiz.result.your"><![CDATA[Your Result]]></item>
+        <item name="wcf.user.quiz.resultDialog.correct"><![CDATA[Correctly answered Questions]]></item>
+        <item name="wcf.user.quiz.resultDialog.correct.answers"><![CDATA[Solutions]]></item>
+        <item name="wcf.user.quiz.resultDialog.hide"><![CDATA[Result held back]]></item>
+        <item name="wcf.user.quiz.resultDialog.none"><![CDATA[None]]></item>
+        <item name="wcf.user.quiz.resultDialog.result"><![CDATA[Solutions]]></item>
+        <item name="wcf.user.quiz.resultDialog.wrong"><![CDATA[Incorrectly answered Questions]]></item>
+        <item name="wcf.user.quiz.results"><![CDATA[Results]]></item>
+        <item name="wcf.user.quiz.sort.categoryID"><![CDATA[Category]]></item>
+        <item name="wcf.user.quiz.sort.count"><![CDATA[Answers]]></item>
+        <item name="wcf.user.quiz.sort.counter"><![CDATA[Views]]></item>
+        <item name="wcf.user.quiz.sort.question"><![CDATA[Question]]></item>
+        <item name="wcf.user.quiz.sort.questions"><![CDATA[Questions]]></item>
+        <item name="wcf.user.quiz.sort.ratingTotal"><![CDATA[Rating]]></item>
+        <item name="wcf.user.quiz.sort.showOrder"><![CDATA[Default]]></item>
+        <item name="wcf.user.quiz.sort.time"><![CDATA[Creation]]></item>
+        <item name="wcf.user.quiz.sort.timeLimit"><![CDATA[Time limit]]></item>
+        <item name="wcf.user.quiz.sort.title"><![CDATA[Title]]></item>
+        <item name="wcf.user.quiz.start"><![CDATA[Start Quiz]]></item>
+        <item name="wcf.user.quiz.stats"><![CDATA[Statistics]]></item>
+        <item name="wcf.user.quiz.stats.best"><![CDATA[Best Results]]></item>
+        <item name="wcf.user.quiz.stats.created"><![CDATA[Quiz created on {$quiz->time|date}]]></item>
+        <item name="wcf.user.quiz.stats.latest"><![CDATA[Latest Results]]></item>
+        <item name="wcf.user.quiz.stats.questions"><![CDATA[{#$quiz->getQuestionCount()} {if 1 == $quiz->getQuestionCount()}question{else}questions{/if}]]></item>
+        <item name="wcf.user.quiz.stats.solves"><![CDATA[{#$quiz->counter} {if $quiz->counter == 1}visit{else}visits{/if}]]></item>
+        <item name="wcf.user.quiz.stats.rate"><![CDATA[The average success rate is {$rate|quizRound} percent.]]></item>
+        <item name="wcf.user.quiz.stats.user"><![CDATA[{#$stats.count} quiz{if $stats.count != 1}zes{/if} solved - {@$stats.results|quizRound} % success rate]]></item>
+        <item name="wcf.user.quiz.time"><![CDATA[Date]]></item>
+        <item name="wcf.user.quiz.timeExpired"><![CDATA[The time limit for this quiz is reached and the quiz was aborted. The remaining questions will be evaluated as incorrectly answered.]]></item>
+        <item name="wcf.user.quiz.timeExpired.title"><![CDATA[Time Expired]]></item>
+        <item name="wcf.user.quiz.timeLeft"><![CDATA[Remaining time]]></item>
+        <item name="wcf.user.quiz.timedQuiz"><![CDATA[The quiz must be solved within {if $quiz->timeLimit>3599}{'H:i:s'|gmdate:$quiz->timeLimit} hours{elseif $quiz->timeLimit>59}{'i:s'|gmdate:$quiz->timeLimit} minutes{else}{'s'|gmdate:$quiz->timeLimit} seconds{/if}.]]></item>
+        <item name="wcf.user.quiz.user"><![CDATA[User]]></item>
+        <item name="wcf.user.quiz.users"><![CDATA[Users]]></item>
+        <item name="wcf.user.quiz.userSolves"><![CDATA[Quizzes]]></item>
+        <item name="wcf.user.quiz.userRates"><![CDATA[Quiz rate]]></item>
+    </category>
+
+    <category name="wcf.user.recentActivity">
+        <item name="wcf.user.recentActivity.com.uz.wcf.quiz.recentActivityEvent.quiz"><![CDATA[Quiz]]></item>
+        <item name="wcf.user.recentActivity.com.uz.wcf.quiz.recentActivityEvent.quizRating"><![CDATA[Quiz Rating]]></item>
+    </category>
 </language>
