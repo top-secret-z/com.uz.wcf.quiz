@@ -1,152 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/option.xsd">
-	<import>
-		<categories>
-			<category name="quiz"></category>
-			<category name="quiz.general">
-				<parent>quiz</parent>
-				<showorder>1</showorder>
-			</category>
-			<category name="quiz.sort">
-				<parent>quiz</parent>
-				<showorder>2</showorder>
-			</category>
-			<category name="quiz.rating">
-				<parent>quiz</parent>
-				<showorder>3</showorder>
-			</category>
-			<category name="quiz.general.category">
-				<parent>quiz.general</parent>
-			</category>
-			<category name="quiz.general.group">
-				<parent>quiz.general</parent>
-			</category>
-			<category name="quiz.general.best">
-				<parent>quiz.general</parent>
-			</category>
-			<category name="quiz.general.user">
-				<parent>quiz.general</parent>
-			</category>
-			<category name="quiz.general.filter">
-				<parent>quiz.general</parent>
-			</category>
-		</categories>
-		
-		<options>
-			<option name="module_uzquiz">
-				<categoryname>module.community</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			<option name="module_uzquiz_report">
-				<categoryname>module.community</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			<option name="module_uzquiz_activity">
-				<categoryname>module.community</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			
-			<option name="quiz_default_sort_field">
-				<categoryname>quiz.sort</categoryname>
-				<optiontype>select</optiontype>
-				<defaultvalue>time</defaultvalue>
-				<selectoptions><![CDATA[time:wcf.acp.quiz.sort_creation
+    <import>
+        <categories>
+            <category name="quiz"></category>
+            <category name="quiz.general">
+                <parent>quiz</parent>
+                <showorder>1</showorder>
+            </category>
+            <category name="quiz.sort">
+                <parent>quiz</parent>
+                <showorder>2</showorder>
+            </category>
+            <category name="quiz.rating">
+                <parent>quiz</parent>
+                <showorder>3</showorder>
+            </category>
+            <category name="quiz.general.category">
+                <parent>quiz.general</parent>
+            </category>
+            <category name="quiz.general.group">
+                <parent>quiz.general</parent>
+            </category>
+            <category name="quiz.general.best">
+                <parent>quiz.general</parent>
+            </category>
+            <category name="quiz.general.user">
+                <parent>quiz.general</parent>
+            </category>
+            <category name="quiz.general.filter">
+                <parent>quiz.general</parent>
+            </category>
+        </categories>
+
+        <options>
+            <option name="module_uzquiz">
+                <categoryname>module.community</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+            <option name="module_uzquiz_report">
+                <categoryname>module.community</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+            <option name="module_uzquiz_activity">
+                <categoryname>module.community</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+
+            <option name="quiz_default_sort_field">
+                <categoryname>quiz.sort</categoryname>
+                <optiontype>select</optiontype>
+                <defaultvalue>time</defaultvalue>
+                <selectoptions><![CDATA[time:wcf.acp.quiz.sort_creation
 questions:wcf.acp.quiz.sort_questions
 counter:wcf.acp.quiz.sort_counter
 showOrder:wcf.acp.quiz.sort_showOrder
 timeLimit:wcf.acp.quiz.sort_timeLimit]]></selectoptions>
-			</option>
-			<option name="quiz_default_sort_order">
-				<categoryname>quiz.sort</categoryname>
-				<optiontype>select</optiontype>
-				<defaultvalue>DESC</defaultvalue>
-				<selectoptions><![CDATA[ASC:wcf.global.sortOrder.ascending
+            </option>
+            <option name="quiz_default_sort_order">
+                <categoryname>quiz.sort</categoryname>
+                <optiontype>select</optiontype>
+                <defaultvalue>DESC</defaultvalue>
+                <selectoptions><![CDATA[ASC:wcf.global.sortOrder.ascending
 DESC:wcf.global.sortOrder.descending]]></selectoptions>
-			</option>
-			<option name="quiz_rating_activate">
-				<categoryname>quiz.rating</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			<option name="quiz_rating_one">
-				<categoryname>quiz.rating</categoryname>
-				<optiontype>textI18n</optiontype>
-				<supporti18n>1</supporti18n>
-				<defaultvalue>wcf.acp.option.quiz.rating_one</defaultvalue>
-			</option>
-			<option name="quiz_rating_two">
-				<categoryname>quiz.rating</categoryname>
-				<optiontype>textI18n</optiontype>
-				<supporti18n>1</supporti18n>
-				<defaultvalue>wcf.acp.option.quiz.rating_two</defaultvalue>
-			</option>
-			<option name="quiz_rating_three">
-				<categoryname>quiz.rating</categoryname>
-				<optiontype>textI18n</optiontype>
-				<supporti18n>1</supporti18n>
-				<defaultvalue>wcf.acp.option.quiz.rating_three</defaultvalue>
-			</option>
-			<option name="quiz_rating_four">
-				<categoryname>quiz.rating</categoryname>
-				<optiontype>textI18n</optiontype>
-				<supporti18n>1</supporti18n>
-				<defaultvalue>wcf.acp.option.quiz.rating_four</defaultvalue>
-			</option>
-			<option name="quiz_rating_five">
-				<categoryname>quiz.rating</categoryname>
-				<optiontype>textI18n</optiontype>
-				<supporti18n>1</supporti18n>
-				<defaultvalue>wcf.acp.option.quiz.rating_five</defaultvalue>
-			</option>
-			
-			<option name="quiz_category_on">
-				<categoryname>quiz.general.category</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-			</option>
-			<option name="quiz_group_on">
-				<categoryname>quiz.general.group</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-			</option>
-			<option name="quiz_best_once">
-				<categoryname>quiz.general.best</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-			</option>
-			<option name="quiz_best_overall">
-				<categoryname>quiz.general.best</categoryname>
-				<optiontype>integer</optiontype>
-				<defaultvalue>3</defaultvalue>
-				<minvalue>1</minvalue>
-			</option>
-			
-			<option name="quiz_user_quizzes">
-				<categoryname>quiz.general.user</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			<option name="quiz_user_quizRates">
-				<categoryname>quiz.general.user</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-			</option>
-			
-			<option name="quiz_filter">
-				<categoryname>quiz.general.filter</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<enableoptions>quiz_filter_success</enableoptions>
-			</option>
-			
-			<option name="quiz_filter_success">
-				<categoryname>quiz.general.filter</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-			</option>
-		</options>
-	</import>
+            </option>
+            <option name="quiz_rating_activate">
+                <categoryname>quiz.rating</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+            <option name="quiz_rating_one">
+                <categoryname>quiz.rating</categoryname>
+                <optiontype>textI18n</optiontype>
+                <supporti18n>1</supporti18n>
+                <defaultvalue>wcf.acp.option.quiz.rating_one</defaultvalue>
+            </option>
+            <option name="quiz_rating_two">
+                <categoryname>quiz.rating</categoryname>
+                <optiontype>textI18n</optiontype>
+                <supporti18n>1</supporti18n>
+                <defaultvalue>wcf.acp.option.quiz.rating_two</defaultvalue>
+            </option>
+            <option name="quiz_rating_three">
+                <categoryname>quiz.rating</categoryname>
+                <optiontype>textI18n</optiontype>
+                <supporti18n>1</supporti18n>
+                <defaultvalue>wcf.acp.option.quiz.rating_three</defaultvalue>
+            </option>
+            <option name="quiz_rating_four">
+                <categoryname>quiz.rating</categoryname>
+                <optiontype>textI18n</optiontype>
+                <supporti18n>1</supporti18n>
+                <defaultvalue>wcf.acp.option.quiz.rating_four</defaultvalue>
+            </option>
+            <option name="quiz_rating_five">
+                <categoryname>quiz.rating</categoryname>
+                <optiontype>textI18n</optiontype>
+                <supporti18n>1</supporti18n>
+                <defaultvalue>wcf.acp.option.quiz.rating_five</defaultvalue>
+            </option>
+
+            <option name="quiz_category_on">
+                <categoryname>quiz.general.category</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+            </option>
+            <option name="quiz_group_on">
+                <categoryname>quiz.general.group</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+            </option>
+            <option name="quiz_best_once">
+                <categoryname>quiz.general.best</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+            </option>
+            <option name="quiz_best_overall">
+                <categoryname>quiz.general.best</categoryname>
+                <optiontype>integer</optiontype>
+                <defaultvalue>3</defaultvalue>
+                <minvalue>1</minvalue>
+            </option>
+
+            <option name="quiz_user_quizzes">
+                <categoryname>quiz.general.user</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+            <option name="quiz_user_quizRates">
+                <categoryname>quiz.general.user</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+            </option>
+
+            <option name="quiz_filter">
+                <categoryname>quiz.general.filter</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <enableoptions>quiz_filter_success</enableoptions>
+            </option>
+
+            <option name="quiz_filter_success">
+                <categoryname>quiz.general.filter</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+            </option>
+        </options>
+    </import>
 </data>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/cronjob.xsd">
-	<import>
-		<cronjob name="com.uz.wcf.quiz.quizCleanup">
-			<classname><![CDATA[wcf\system\cronjob\QuizCleanupCronjob]]></classname>
-			<description><![CDATA[Executes Quiz Cleanup]]></description>
-			<description language="de"><![CDATA[Führt Quiz-Aufräumarbeiten aus]]></description>
-			<startminute>15</startminute>
-			<starthour>0</starthour>
-			<startdom>*</startdom>
-			<startmonth>*</startmonth>
-			<startdow>*</startdow>
-			<active>1</active>
-			<canbeedited>1</canbeedited>
-			<canbedisabled>1</canbedisabled>
-		</cronjob>
-	</import>
+    <import>
+        <cronjob name="com.uz.wcf.quiz.quizCleanup">
+            <classname><![CDATA[wcf\system\cronjob\QuizCleanupCronjob]]></classname>
+            <description><![CDATA[Executes Quiz Cleanup]]></description>
+            <description language="de"><![CDATA[Führt Quiz-Aufräumarbeiten aus]]></description>
+            <startminute>15</startminute>
+            <starthour>0</starthour>
+            <startdom>*</startdom>
+            <startmonth>*</startmonth>
+            <startdow>*</startdow>
+            <active>1</active>
+            <canbeedited>1</canbeedited>
+            <canbedisabled>1</canbedisabled>
+        </cronjob>
+    </import>
 </data>
